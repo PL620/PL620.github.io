@@ -104,6 +104,8 @@
 				bottom: 0;
 				left: 0;
 				width: 375px;
+				background: #fff;
+				z-index: 999;
 			}
 			.bottom-tabber li{
 				float: left;
@@ -113,6 +115,9 @@
 				color: #7c7c7c;
 				font-size: 16px;
 				text-align: center;
+			}
+			.bottom-tabber .active{
+				color: #ff719b;
 			}
 		</style>
 	</head>
@@ -215,9 +220,26 @@
 			var tabberList = mObjData.tabbar.list;
 			console.log(tabberList)
 			for(var i=0;i<tabberList.length;i++){
-				strLi += '<li>'+tabberList[i].title+'</li>';
+				if(i == 0){
+					strLi += '<li class="active">'+tabberList[i].title+'</li>';
+				}else{
+					strLi += '<li>'+tabberList[i].title+'</li>';
+				}
+				
 			}
 			tabber.innerHTML = strLi;
+			
+			// 获取底部导航的li
+			var tabberLi = document.querySelectorAll('.bottom-tabber ul li');
+			for(var i=0;i<tabberLi.length;i++){
+				tabberLi[i].onclick = function(){
+					
+					for(var i=0;i<tabberLi.length;i++){
+						tabberLi[i].className = '';
+					}
+					this.className = 'active';
+				}
+			}
 		</script>
 	</body>
 </html>
