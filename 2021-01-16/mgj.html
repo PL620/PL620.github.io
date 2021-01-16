@@ -13,6 +13,7 @@
 				margin: 0;
 				border: none;
 				outline: none;
+				list-style: none;
 			}
 			img{
 				width: 100%;
@@ -95,6 +96,24 @@
 				height: 131px;
 				width: 375px;
 			}
+			
+			.bottom-tabber{
+				height: 48px;
+				border-top:1px solid #d7d7d8;
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				width: 375px;
+			}
+			.bottom-tabber li{
+				float: left;
+				width: 25%;
+				height: 48px;
+				line-height: 50px;
+				color: #7c7c7c;
+				font-size: 16px;
+				text-align: center;
+			}
 		</style>
 	</head>
 	<body>
@@ -140,8 +159,17 @@
 				</div> -->
 				
 			</div>
+			
 		</div>
 		
+		<div class="bottom-tabber">
+			<ul>
+				<!-- <li>
+					首页
+				</li> -->
+			</ul>
+			
+		</div>
 		<script type="text/javascript">
 			console.log(mObjData)
 			var navShopShow = mObjData.navShopShow.list;
@@ -160,7 +188,6 @@
 			
 			var swiperWrapper = document.querySelectorAll('.swiper-wrapper')[0];
 			var bannerList = mObjData.banner[140378].list;
-			console.log(bannerList);
 			
 			var strBanner = '';
 			for(var i=0;i<bannerList.length;i++){
@@ -179,7 +206,18 @@
 				pagination: {
 				  el: '.swiper-pagination',
 				}				
-			})     
+			})   
+			  
+			 
+			// 底部导航
+			var tabber = document.querySelectorAll('.bottom-tabber ul')[0];
+			var strLi = '';
+			var tabberList = mObjData.tabbar.list;
+			console.log(tabberList)
+			for(var i=0;i<tabberList.length;i++){
+				strLi += '<li>'+tabberList[i].title+'</li>';
+			}
+			tabber.innerHTML = strLi;
 		</script>
 	</body>
 </html>
