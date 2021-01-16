@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			li{
+				/* background: green; */
+			}
+			
+			.list li{
+				background: green;
+			}
+			li:nth-of-type(3){
+				background: pink;
+			}
+			.username li{
+				color: #f60;
+				font-size:40px;
+				
+			}
+		</style>
+	</head>
+	<body>
+		
+		<ul class="list">
+			<li>111</li>
+			<li>22</li>
+			<li>333</li>
+			<li>444</li>
+			<li>555</li>
+		</ul>
+		
+		<ul>
+			<li>111</li>
+			<li>22</li>
+			<li>333</li>
+			<li>444</li>
+			<li>555</li>
+		</ul>
+		
+		<ul class="username">
+			<!-- <li>王雅琴</li> -->
+		</ul>
+		<script type="text/javascript">
+			/*
+				js : javascript 
+				
+			
+				for() : 循环
+					for(参数一;参数二;参数三){
+						console.log(1);
+					}
+					参数一 ：创建一共变量，放东西的盒子
+						var box=0;  
+						
+						= : 赋值运算符
+						
+					参数二 : 判断条件，限制循环的次数
+						>  < >=  <= !=  : 比较运算符
+						3<2 :
+							true: 对
+							false: 错
+						1+2
+						
+					参数三 : 把变量里面的数字加1；
+					
+						
+					执行顺序：
+						第一步 :
+							创建变量ivar i=90;,并且给他一个初始值
+						
+						第二步：
+							把变量和值进行比较，得出对错
+								结果对 ：
+									执行代码
+								结果错 ：
+									循环结束
+						
+						第三步 ：
+							让变量的值加1
+							
+						
+						第四步：
+							把变量和值进行比较，得出对错
+								结果对 ：
+									执行代码
+								结果错 ：
+									循环结束
+						第五步：
+							让变量的值加1
+						
+						
+				if() : 代码是否要执行
+				
+					if(age>=18){
+						console.log('你已经成年')
+					}else{
+						console.log('你未成年')
+					}
+				
+				获取页面里面的标签：
+					H5新增的获取元素的方式：	
+						document.querySelectorAll('选择器');
+						
+						选择器 ：
+							
+							
+				对标签的内容进行变化：
+					innerHTML : 往标签里面添加内容
+				
+				数据类型 ：
+					
+					数组：
+						
+				
+				
+			*/
+		   
+// 		   console.log(1);
+// 		   console.log(1);
+// 
+// 		   console.log(1);
+// 		   console.log(1);
+// 
+// 		   console.log(1);
+// 		   console.log(1);
+			
+			
+			// for(var i=0;i<5;i++){
+			// 	console.log(i);
+			// }
+			
+			var age = 17;
+			var isMony = true;
+			
+			// 判断你是否成年
+			if(age>=18){
+				console.log('你已经成年')
+			}else{
+				console.log('你未成年')
+			}
+			
+			var username = document.querySelectorAll('.username')[0];
+			
+			var lis = document.querySelectorAll('li:nth-of-type(3)');
+			var arr = ['王雅琪','彭国风','问的人','音乐'];
+			var str = '';
+			for(var i=0;i<4;i++){
+				str += '<li>'+arr[i]+'</li>';
+				
+			}
+			
+			// 望标签里面添加内容
+			username.innerHTML = str;
+			console.log(str)
+			console.log(username)
+		</script>
+	</body>
+</html>

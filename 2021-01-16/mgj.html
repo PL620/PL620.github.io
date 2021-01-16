@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/swiper.css"/>
+		<script type="text/javascript" src="js/mData.js"></script>
+		<script type="text/javascript" src="js/swiper.js"></script>
+		<meta name="viewport" content="width=375,user-scalable=no" />
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+				border: none;
+				outline: none;
+			}
+			img{
+				width: 100%;
+				height: 100%;
+				vertical-align: top;
+			}
+			.header{
+				width: 375;
+				height: 74px;
+			}
+			.header .h_top{
+				height: 34px;
+			}
+			.header .h_top div{
+				float: left;
+			}
+			.header .h_top .logo{
+				width: 95px;
+				height: 34px;
+			}
+			.header .h_top .app{
+				width: 90px;
+				height: 34px;
+			}
+			.header .h_top .app p{
+				font-size: 11px;
+				color: #a3a3a5;
+				line-height: 44px;
+			}
+			.header .h_top .nbtn{
+				float: right;
+				width: 97px;
+				height: 34px;
+			}
+			.header .h_top .nbtn button{
+				width: 89px;
+				height: 26px;
+				background: #ff4466;
+				font-size: 10px;
+				color: #fff;
+				border-radius: 10px;
+				margin-top: 7px;
+			}
+			.header .h_bottom{
+				height: 40px;
+				background: chocolate;
+			}
+			
+			.navShop{
+				padding-left: 3px;
+			}
+			.navShop div{
+				width: 74px;
+				height: 83px;
+				float: left;
+			}
+			.navShop div img{
+				width: 51px;
+				height: 51px;
+				border-radius: 51px;
+				display: block;
+				margin: 5px auto 0 auto;
+			}
+			.navShop div p{
+				height: 22px;
+				text-align: center;
+				color: #6d616d;
+				font-size: 12px;
+			}
+			.banner{
+				height: 131px;
+				width: 375px;
+				background: red;
+			}
+			.banner .swiper-slide{
+				height: 131px;
+				width: 375px;
+			}
+			.swiper-container,.swiper-wrapper,.banner .swiper-slide img{
+				height: 131px;
+				width: 375px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			
+			<div class="header">
+				<div class="h_top">
+					<div class="logo">
+						<img src="img/logo.png" />
+					</div>
+					<div class="app">
+						<p>
+							应用版本:14.6.1
+						</p>
+					</div>
+					<div class="nbtn">
+						<button type="button">打开APP</button>
+					</div>
+				</div>
+				<div class="h_bottom"></div>
+			</div>
+		
+			<!--省略一部分--->
+		
+			<!--轮播图-->
+			<div class="banner">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<!-- <div class="swiper-slide">
+							<img src="https://s5.mogucdn.com/mlcdn/c45406/201201_4haij26fbd0eag8iclj14414h6h03_1060x367.jpg" />
+						</div> -->
+						
+					</div>
+					<!-- 如果需要分页器 -->
+					<div class="swiper-pagination"></div>
+					
+				</div>
+			</div>
+			<div class="navShop">
+				<!-- <div class="item">
+					<img src="" alt="" />
+					<p>女装</p>
+				</div> -->
+				
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+			console.log(mObjData)
+			var navShopShow = mObjData.navShopShow.list;
+			var navShop = document.querySelectorAll('.navShop')[0];
+			var str = '';
+			for(var i=0;i<navShopShow.length-1;i++){
+				str += '<div class="item">'+
+							'<img src="'+navShopShow[i].image+'" alt="" />'+
+							'<p>'+navShopShow[i].title+'</p>'+
+						'</div>';
+			}
+			
+			navShop.innerHTML = str;
+			
+			// 渲染轮播图
+			
+			var swiperWrapper = document.querySelectorAll('.swiper-wrapper')[0];
+			var bannerList = mObjData.banner[140378].list;
+			console.log(bannerList);
+			
+			var strBanner = '';
+			for(var i=0;i<bannerList.length;i++){
+				strBanner += '<div class="swiper-slide">'+
+							'<img src="'+bannerList[i].image_800+'" />'+
+						'</div>';
+			}
+			swiperWrapper.innerHTML = strBanner;
+			
+			
+			
+			// 轮播图操作
+			var mySwiper = new Swiper ('.swiper-container', {		
+				loop: true, // 循环模式选项
+				// 如果需要分页器
+				pagination: {
+				  el: '.swiper-pagination',
+				}				
+			})     
+		</script>
+	</body>
+</html>
