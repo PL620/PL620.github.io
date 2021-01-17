@@ -325,14 +325,14 @@
 				
 				var h = showshopList[i].modelData.coverInfo.originH/(showshopList[i].modelData.coverInfo.originW/175);
 				if(showshopList[i].modelData.desc.length>=24){
-					strShop = '<img src="'+showshopList[i].modelData.coverInfo.path+'" alt="" style="height: '+h+'px;"/>'+
+					strShop = '<img _src="'+showshopList[i].modelData.coverInfo.path+'" alt="" style="height: '+h+'px;"/>'+
 									'<p>'+showshopList[i].modelData.desc.substr(0,22)+'...</p>'+
 									'<h3>'+
 										'<span style="background-image: url('+showshopList[i].modelData.userInfo.avatar+');"></span>'+
 										'<span>'+showshopList[i].modelData.userInfo.name+'</span>'+
 									'</h3>';
 				}else{
-					strShop = '<img src="'+showshopList[i].modelData.coverInfo.path+'" alt="" style="height: '+h+'px;"/>'+
+					strShop = '<img _src="'+showshopList[i].modelData.coverInfo.path+'" alt="" style="height: '+h+'px;"/>'+
 									'<p>'+showshopList[i].modelData.desc.substr(0,22)+'</p>'+
 									'<h3>'+
 										'<span style="background-image: url('+showshopList[i].modelData.userInfo.avatar+');"></span>'+
@@ -344,7 +344,6 @@
 				// 把内容加到标签里面
 				div.innerHTML = strShop;
 				// 把生产的标签放到li 
-				
 				el.appendChild(div);
 				
 			}
@@ -361,12 +360,47 @@
 					   el = shopShowLi[i];
 				   }
 				}
-				console.log(bot,el,shopShowLi)
-				
 				return el;
 			}
 			
 			
+			lazy();
+			// 图片的懒加载功能
+			function lazy(){
+				
+				var item = document.querySelectorAll('.shopShow .list .item');
+				var iH = window.innerHeight;
+				for(var i=0;i<item.length;i++){
+					
+					var _top = item[i].getBoundingClientRect().top;
+					
+					if(iH >= _top){
+						var imgs = item[i].children[0];
+						
+						var s = imgs.getAttribute('_src');
+						if(s != null){
+							imgs.src = s;
+							imgs.removeAttribute('_src');
+						}
+					}
+				}
+				
+			}
+			
+			window.onscroll = function(){
+				lazy();
+			}
+			/*
+				10000商品
+				
+				1M  
+					20M
+					1G
+					
+					懒加载：
+						
+			
+			*/
 		</script>
 	</body>
 </html>
