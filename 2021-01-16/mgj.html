@@ -125,6 +125,51 @@
 			body>.show{
 				display: block;
 			}
+			.shopShow{
+				padding-left: 9px;
+				background: #f6f6f6;
+			}
+			.shopShow li{
+				overflow: hidden;
+				width: 175px;
+				margin-right: 6px;
+				float: left;
+			}
+			.shopShow .item{
+				width: 175px;
+				margin-bottom: 8px;
+				overflow: hidden;
+			}
+			.shopShow .item img{
+				display: block;
+				width: 100%;	
+			}
+			.shopShow .item p{
+				margin-top: 12px;
+				color: #7f888e;
+				font-size: 14px;
+				margin-bottom: 7px;
+			}
+			.shopShow .item h3{
+				overflow: hidden;
+				margin-bottom: 12px;
+			}
+			.shopShow .item h3 span{
+				float: left;
+			}
+			.shopShow .item h3 span:nth-of-type(1){
+				width: 25px;
+				height: 25px;
+				border-radius: 100%;
+				margin: 2px 0 0 6px;
+				background-size:100% 100%;
+			}
+			.shopShow .item h3 span:nth-of-type(2){
+				font-size: 10px;
+				color: #000000;
+				line-height: 30px;
+				padding-left: 4px;
+			}
 		</style>
 	</head>
 	<body>
@@ -171,6 +216,21 @@
 				
 			</div>
 			
+			<div class="shopShow">
+				
+				<ul class="list">
+					<li></li>
+					<li></li>
+				</ul>
+				<!-- <div class="item">
+					<img src="" alt="" style="height: ;"/>
+					<p>VS的就是房价</p>
+					<h3>
+						<span></span>
+						<span>打豆豆</span>
+					</h3>
+				</div> -->
+			</div>
 		</div>
 		
 		<div class="shop page">商城</div>
@@ -191,12 +251,10 @@
 							'<img src="'+navShopShow[i].image+'" alt="" />'+
 							'<p>'+navShopShow[i].title+'</p>'+
 						'</div>';
-			}
-			
+			}			
 			navShop.innerHTML = str;
 			
-			// 渲染轮播图
-			
+			// 渲染轮播图			
 			var swiperWrapper = document.querySelectorAll('.swiper-wrapper')[0];
 			var bannerList = mObjData.banner[140378].list;
 			
@@ -224,7 +282,6 @@
 			var tabber = document.querySelectorAll('.bottom-tabber ul')[0];
 			var strLi = '';
 			var tabberList = mObjData.tabbar.list;
-			console.log(tabberList)
 			for(var i=0;i<tabberList.length;i++){
 				if(i == 0){
 					strLi += '<li class="active">'+tabberList[i].title+'</li>';
@@ -240,18 +297,76 @@
 			var pages = document.querySelectorAll('body>.page');
 			for(var i=0;i<tabberLi.length;i++){
 				tabberLi[i].index = i;
-				tabberLi[i].onclick = function(){
-					
+				tabberLi[i].onclick = function(){					
 					for(var i=0;i<tabberLi.length;i++){
 						tabberLi[i].className = '';
 						pages[i].style.display = 'none';
 					}
-					this.className = 'active';
-					
+					this.className = 'active';					
 					pages[this.index].style.display = 'block';
-					console.log(this.index,pages[this.index])
 				}
 			}
+			
+			
+			// 商品渲染
+			var shopShow = document.querySelectorAll('.shopShow')[0];
+			
+			var showshopList = mObjData.shopList.list;
+			var strShop = '';
+			for(var i=0;i<showshopList.length;i++){
+				
+				var el = getMinLi();
+				
+				// 生成元素
+				var div = document.createElement('div');
+				
+				// console.log(el);
+				div.className = 'item';
+				
+				var h = showshopList[i].modelData.coverInfo.originH/(showshopList[i].modelData.coverInfo.originW/175);
+				if(showshopList[i].modelData.desc.length>=24){
+					strShop = '<img src="'+showshopList[i].modelData.coverInfo.path+'" alt="" style="height: '+h+'px;"/>'+
+									'<p>'+showshopList[i].modelData.desc.substr(0,22)+'...</p>'+
+									'<h3>'+
+										'<span style="background-image: url('+showshopList[i].modelData.userInfo.avatar+');"></span>'+
+										'<span>'+showshopList[i].modelData.userInfo.name+'</span>'+
+									'</h3>';
+				}else{
+					strShop = '<img src="'+showshopList[i].modelData.coverInfo.path+'" alt="" style="height: '+h+'px;"/>'+
+									'<p>'+showshopList[i].modelData.desc.substr(0,22)+'</p>'+
+									'<h3>'+
+										'<span style="background-image: url('+showshopList[i].modelData.userInfo.avatar+');"></span>'+
+										'<span>'+showshopList[i].modelData.userInfo.name+'</span>'+
+									'</h3>';
+								
+				}
+				
+				// 把内容加到标签里面
+				div.innerHTML = strShop;
+				// 把生产的标签放到li 
+				
+				el.appendChild(div);
+				
+			}
+			
+			// 获取最短的<li></li>
+			function getMinLi(){
+				var shopShowLi = document.querySelectorAll('.shopShow li');
+				var min = Infinity; // 无穷大
+				var el = null;
+				for(var i=0;i<shopShowLi.length;i++){
+				    var bot = shopShowLi[i].clientHeight;
+				   if(min >= bot){
+					   min = bot;
+					   el = shopShowLi[i];
+				   }
+				}
+				console.log(bot,el,shopShowLi)
+				
+				return el;
+			}
+			
+			
 		</script>
 	</body>
 </html>
