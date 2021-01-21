@@ -1,0 +1,771 @@
+let arr = [
+{
+	type:'time',
+	title:'2019年12月28日 15:18'
+},
+{
+	type:'p',
+	title:'你好'	
+},
+{
+	type:'l',
+	title:'你好'	
+},
+{
+	type:'p',
+	title:'我叫彭浪，你好'	
+},
+{
+	type:'l',
+	title:'我是李孝琳'	
+},
+{
+	type:'time',
+	title:'.........'
+},
+{
+	type:'time',
+	title:'2020年1月29日 11:18'
+},
+{
+	type:'p',
+	title:'琳琳，做我女朋友吧'	
+},
+{
+	type:'l',
+	title:'我怎么觉得那么容易就被你弄到手了呢'	
+},
+{
+	type:'p',
+	title:'怎么能说容易辣'	
+},
+{
+	type:'p',
+	title:'我可是用的真心才换来你的爱的'	
+},
+{
+	type:'pi',
+	img:'img/1.jpg'	
+},
+{
+	type:'l',
+	title:'好嘛，看在你真心的份上，就便宜你了，答应你好了'	
+},
+{
+	type:'time',
+	title:'2020年2月7日 12:21'
+},
+{
+	type:'p',
+	title:'宝贝，你不饿啊'	
+},
+{
+	type:'l',
+	title:'有彭老师我怎么会饿呢'	
+},
+{
+	type:'l',
+	title:'我把昨天妈妈做的剩菜热了一下'	
+},
+{
+	type:'l',
+	title:'然后再做个汤，爸爸都吃完啦'	
+},
+{
+	type:'p',
+	title:'那宝贝，你还要出门不嘛'	
+},
+{
+	type:'l',
+	title:'要喝酸奶，应该要下去吧'	
+},
+{
+	type:'p',
+	title:'宝贝，那你多买一点哦'	
+},
+{
+	type:'time',
+	title:'2020年2月7日 12:36'
+},
+{
+	type:'l',
+	title:'我要花28块钱解决温饱，我只是个会计，我是负责花钱，不是负责造钱的'	
+},
+{
+	type:'l',
+	title:'带了6支口红回来，结果……浪费我的心情'	
+},
+{
+	type:'p',
+	title:'宝贝，你的美不是口红衣服称托的，它们只是一种点缀。你的美是独一无二的'	
+},
+{
+	type:'li',
+	img:'img/2.jpg'	
+},
+{
+	type:'l',
+	title:'70多'	
+},
+{
+	type:'p',
+	title:'宝贝，你这可能还吃很久哦，我觉得你'	
+},
+{
+	type:'l',
+	title:'草莓我一会就给吃了'	
+},
+{
+	type:'li',
+	img:'img/3.jpg'	
+},
+{
+	type:'p',
+	title:'宝贝，我都想吃'	
+},
+{
+	type:'l',
+	title:'甜甜的'	
+},
+{
+	type:'p',
+	title:'宝贝，我一想到你，就跟吃了草莓一样的甜'	
+},
+{
+	type:'l',
+	title:'老公'	
+},
+{
+	type:'l',
+	title:'你每天都吃蜂蜜的吗'	
+},
+{
+	type:'p',
+	title:'幺幺，你就是我的蜜'	
+},
+{
+	type:'l',
+	title:'老公，你要心口一样哦'	
+},
+{
+	type:'p',
+	title:'幺幺，相信我，我会爱你一辈子，不是三分钟热度'	
+},
+{
+	type:'l',
+	title:'嗯嗯，我也爱你，我的好老公'	
+},
+{
+	type:'p',
+	title:'幺幺，我想你'	
+},
+{
+	type:'l',
+	title:'我也是呀，好像飞到我老公身边，让我老公好好爱我呀'	
+},
+{
+	type:'time',
+	title:'2020年2月7日19:36'
+},
+{
+	type:'p',
+	title:'老婆，把你的手拍一个照片给我，给你算一下手相'	
+},
+{
+	type:'pi',
+	img:'img/4.jpg'	
+},
+{
+	type:'li',
+	img:'img/5.jpg'	
+},
+{
+	type:'l',
+	title:'给你，好老公'	
+},
+{
+	type:'p',
+	title:'算命先生说你以后会嫁给我，给做饭，洗衣服，生孩子，暖被子'	
+},
+{
+	type:'p',
+	title:'我才不干呢，你只需要给生孩子，暖被子。其他的事情有我'	
+},
+{
+	type:'l',
+	title:'好嘛，老公，我答应你了，给你生两个'	
+},
+{
+	type:'p',
+	title:'幺幺，请允许我一个事情，我想让全世界都知道我的女人有多好'	
+},
+{
+	type:'pi',
+	img:'img/6.jpg'	
+},
+{
+	type:'l',
+	title:'换这一张，这张更美'	
+},
+{
+	type:'li',
+	img:'img/7.jpg'	
+},
+{
+	type:'time',
+	title:'2020年2月12日 9:28'
+},
+{
+	type:'l',
+	title:'老公，来看看我的脚，大美脚'	
+},
+{
+	type:'li',
+	img:'img/8.jpg'	
+},
+{
+	type:'time',
+	title:'2020年2月12日 13:50'
+},
+{
+	type:'l',
+	title:'老公，好不好看'	
+},
+{
+	type:'li',
+	img:'img/9.jpg'	
+},
+{
+	type:'li',
+	img:'img/10.jpg'	
+},
+{
+	type:'p',
+	title:'好看，我宝贝当然好看了'	
+},
+{
+	type:'p',
+	title:'我更喜欢第一张'	
+},
+{
+	type:'li',
+	img:'img/11.jpg'	
+},
+{
+	type:'p',
+	title:'宝贝，我现在在为宝贝做情人节礼物'	
+},
+{
+	type:'p',
+	title:'宝贝可以猜一猜，是撒子'	
+},
+{
+	type:'l',
+	title:'老公，就是最好的礼物了！'	
+},
+{
+	type:'p',
+	title:'宝贝，你是我的，一辈子都是我的'	
+},
+{
+	type:'l',
+	title:'嗯嗯嗯，一辈子都是你的'	
+},
+{
+	type:'li',
+	img:'img/12.jpg'	
+},
+{
+	type:'p',
+	title:'幺幺，我现在心里面好甜，有你在，每天都是过年'	
+},
+{
+	type:'l',
+	title:'嘿，老公，你居然拿我跟过年比喻，你是搞笑的吗'	
+},
+{
+	type:'p',
+	title:'幺幺，我以前做大的愿望就是过年，因为过年就有好吃的，穿新衣服，有压岁钱'	
+},
+{
+	type:'p',
+	title:'所以过年就是最好的时间'	
+},
+{
+	type:'l',
+	title:'那是小孩的时候啊'	
+},
+{
+	type:'l',
+	title:'请彭先生看下自己身份证的出生日期好吗？'	
+},
+{
+	type:'p',
+	title:'今年我就收到了我这一辈子最重要的礼物了'	
+},
+{
+	type:'p',
+	title:'你晓得是撒子不'	
+},
+{
+	type:'l',
+	title:'撒子'	
+},
+{
+	type:'p',
+	title:'就是你'	
+},
+{
+	type:'p',
+	title:'我爱你，幺幺'	
+},
+{
+	type:'li',
+	img:'img/13.jpg'	
+},
+{
+	type:'l',
+	title:'亲爱的，照片我该发的已经都发了哈'	
+},
+{
+	type:'p',
+	title:'宝贝，我感觉现在就是一种煎熬'	
+},
+{
+	type:'p',
+	title:'不能马上见到我宝贝'	
+},
+{
+	type:'l',
+	title:'以后更老火'	
+},
+{
+	type:'l',
+	title:'怎么办'	
+},
+ {
+	type:'time',
+	title:'2020年2月13日 12:36'
+},
+{
+	type:'p',
+	title:'想你想的我真的吃撒子都没有胃口'	
+},
+{
+	type:'p',
+	title:'唉，命好苦'	
+},
+{
+	type:'l',
+	title:'好想每天都贴着你'	
+},
+{
+	type:'p',
+	title:'宝贝，我的是，我都是想每天贴着我的宝贝，我最爱最爱的宝贝'	
+},
+{
+	type:'l',
+	title:'怎么办呀'	
+},
+{
+	type:'p',
+	title:'宝贝，你回来嘛，要得不'	
+},
+{
+	type:'p',
+	title:'这样我们就能天天在一起'	
+},
+{
+	type:'p',
+	title:'我真的好想每天早上睁开眼就能看到我的琳琳宝贝'	
+},
+{
+	type:'l',
+	title:'我也想每天都看到你'	
+},
+{
+	type:'l',
+	title:'万一我回去了，老公每天都看到我，又烦了'	
+},
+{
+	type:'p',
+	title:'回来嘛宝贝，我不会烦的，一辈子都不会'	
+},
+{
+	type:'l',
+	title:'你才看我多久'	
+},
+{
+	type:'p',
+	title:'才几辈子而已，还早'	
+},
+{
+	type:'l',
+	title:'少来你'	
+},
+{
+	type:'l',
+	title:'彭老师，还没有转正呢'	
+},
+{
+	type:'p',
+	title:'幺幺，我对你的思念在与日俱增'	
+},
+{
+	type:'l',
+	title:'老公，你会越来越想我的'	
+},
+{
+	type:'p',
+	title:'现在的我眼睛睁开和闭上，都是你的身影'	
+},
+{
+	type:'l',
+	title:'嘻嘻，我也是很爱你！'	
+},
+{
+	type:'p',
+	title:'宝贝，我真的好爱好爱你'	
+},
+{
+	type:'l',
+	title:'亲爱的，么么哒'	
+},{
+	type:'l',
+	title:'我们要一直一直爱下去！'	
+},
+{
+	type:'p',
+	title:'宝贝，你爱我，我也爱你，我们会好好的，会一直幸福下去的'	
+}
+,{
+	type:'l',
+	title:'回去孤家寡人一个，吵个架，你再跟我生气，我都是一个人，'	
+}
+,{
+	type:'l',
+	title:'我也爱你！'	
+},
+ {
+	type:'time',
+	title:'2020年2月12日 16:11'
+},
+{
+	type:'l',
+	title:'我跟你说手的尺寸是多少！'	
+},
+{
+	type:'p',
+	title:'三十七到三十八之间'	
+},
+{
+	type:'p',
+	title:'是脚的尺码'	
+},
+{
+	type:'l',
+	title:'手腕呢！'	
+},{
+	type:'p',
+	title:'14.5'	
+},
+{
+	type:'l',
+	title:'就刻三个字，彭先生'	
+},
+{
+	type:'li',
+	img:'img/14.jpg'	
+},
+{
+	type:'p',
+	title:'爱你'	
+},
+{
+	type:'l',
+	title:'么么哒'	
+},
+{
+	type:'li',
+	img:'img/15.jpg'	
+},
+{
+	type:'l',
+	title:'我好像要收敛一点'	
+},
+{
+	type:'l',
+	title:'不能太爱你'	
+},
+{
+	type:'l',
+	title:'不能表现的太明显'	
+},
+{
+	type:'p',
+	title:'不不不，我宝贝就是要表现出来啊，爱就是要大声说'	
+},
+{
+	type:'time',
+	title:'2020年2月13日 11:22'
+},
+{
+	type:'l',
+	title:'彭老师，快起床'	
+},
+{
+	type:'p',
+	title:'宝贝，我起来了'	
+},
+{
+	type:'l',
+	title:'真乖'	
+},
+{
+	type:'p',
+	title:'当然乖了，我老婆宝贝都那么乖的'	
+},
+{
+	type:'l',
+	title:'嘻嘻'	
+},
+{
+	type:'l',
+	title:'彭老师，么么哒！'	
+},
+{
+	type:'l',
+	title:'亲爱的'	
+},
+{
+	type:'l',
+	title:'我在敷面膜'	
+},
+{
+	type:'l',
+	title:'张不开嘴'	
+},
+{
+	type:'p',
+	title:'嗯哒，宝贝，爱你'	
+},
+{
+	type:'time',
+	title:'2020年2月13日 16:21'
+},
+{
+	type:'li',
+	img:'img/ll.jpg'	
+},
+{
+	type:'p',
+	title:'牛乳茶，宝贝，应该好喝'	
+},
+{
+	type:'l',
+	title:'就算打了这么久电话'	
+},
+{
+	type:'l',
+	title:'还是想你'	
+},
+{
+	type:'p',
+	title:'我也是，刚刚挂电话，但是感觉我们又好久没有说话了，老婆宝贝'	
+},
+{
+	type:'p',
+	title:'宝贝，我想喝'	
+},
+{
+	type:'l',
+	title:'等彭老师来看我，请彭老师喝'	
+},
+{
+	type:'time',
+	title:'2020年2月13日 18:36'
+},
+{
+	type:'p',
+	title:'老婆'	
+},
+{
+	type:'l',
+	title:'我在泡脚'	
+},
+{
+	type:'p',
+	title:'想你'	
+},
+{
+	type:'pi',
+	img:'img/17.jpg'	
+},
+{
+	type:'l',
+	title:'我彭老师，真帅'	
+},
+{
+	type:'p',
+	title:'我的宝贝老婆是天下第一漂亮'	
+},
+{
+	type:'l',
+	title:'我们俩是不是商业互捧'	
+},{
+	type:'p',
+	title:'当然不是，我宝贝是真好看'	
+},
+{
+	type:'time',
+	title:'2020年2月14日 00:00'
+},
+{
+	type:'pi',
+	img:'img/18.png'	
+},
+{
+	type:'li',
+	img:'img/19.png'	
+},
+{
+	type:'l',
+	title:'我爱你，谢谢彭先生，我希望明年还是跟跟彭先生一起过情人节！'	
+},
+{
+	type:'p',
+	title:'琳琳宝贝，我要向来天许愿，让我宝贝的愿望实现'	
+},
+{
+	type:'li',
+	img:'img/20.png'	
+},
+{
+	type:'p',
+	title:'宝贝老婆'	
+},
+{
+	type:'p',
+	title:'在干啥子'	
+},
+{
+	type:'l',
+	title:'我想你'	
+},
+{
+	type:'p',
+	title:'宝贝，我也是在想你'	
+},
+{
+	type:'l',
+	title:'这么巧'	
+},
+{
+	type:'p',
+	title:'就是，好巧哦，宝贝老婆'	
+},
+{
+	type:'time',
+	title:'2020年2月15日 14:36'
+},
+{
+	type:'li',
+	img:'img/18.jpg'	
+},
+{
+	type:'li',
+	img:'img/19.jpg'	
+},
+{
+	type:'p',
+	title:'宝贝老婆，你都没有喂我唉'	
+},
+{
+	type:'l',
+	title:'我还等着你喂呢'	
+},
+{
+	type:'time',
+	title:'2020年2月15日 15:36'
+},
+{
+	type:'li',
+	img:'img/21.png'	
+},
+{
+	type:'l',
+	title:'给你找一个小姐'	
+},
+{
+	type:'p',
+	title:'想得美'	
+},
+{
+	type:'time',
+	title:'2020年2月15日 17:36'
+},
+{
+	type:'p',
+	title:'宝贝'	
+},
+{
+	type:'l',
+	title:'在呀，彭先生'	
+},
+{
+	type:'p',
+	title:'我妹妹在我身边'	
+},
+{
+	type:'p',
+	title:'说想听嫂嫂的美妙的声音'	
+},
+{
+	type:'l',
+	title:'她哥哥说我声音浑厚，厚重，不好听'	
+},
+{
+	type:'p',
+	title:'爱记仇的小女人'	
+},
+{
+	type:'l',
+	title:'哼'	
+},
+{
+	type:'time',
+	title:'2020年2月15日 20:36'
+},
+{
+	type:'pi',
+	img:'img/20.jpg'	
+},
+{
+	type:'p',
+	title:'这个是我那个美的祸国殃民的媳妇嘛'	
+},
+]
+//琳琳文字
+var a = {
+	type:'l',
+	title:'你好'	
+}
+var f = {
+	type:'time',
+	title:'2020年2月7日 12:36'
+}
+// 图片
+var b = {
+	type:'li',
+	img:'img/ll.jpg'	
+}
+// 彭浪文章
+var c = {
+	type:'p',
+	title:'你好'	
+}
+// 彭浪图片
+var d = {
+	type:'pi',
+	img:'img/ll.jpg'	
+}

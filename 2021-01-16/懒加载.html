@@ -84,14 +84,14 @@
 			 //   var h = window.innerHeight;
 			 //     console.log('我滚了',h)
 			 //   
-		  //  }
+		  //}
 		  
 		  var list = document.querySelectorAll('ul')[0];
 		  var arr = mObjData.s_shop_list.docs;
 		  
 		  var str = '';
 		  for(var i=0;i<arr.length;i++){
-			  str += '<li><img _src="'+arr[i].img+'" alt=""></li>'
+			  str += '<li><img _src="'+arr[i].img+'" alt=""></li>';
 		  }
 		  list.innerHTML = str;
 		  
