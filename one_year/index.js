@@ -555,7 +555,7 @@ let arr = [
 },
 {
 	type:'li',
-	img:'img/ll.jpg'	
+	img:'img/16.jpg'	
 },
 {
 	type:'p',
