@@ -744,6 +744,1939 @@ let arr = [
 	type:'p',
 	title:'这个是我那个美的祸国殃民的媳妇嘛'	
 },
+{
+	type:'l',
+	title:'我在这里'	
+},
+{
+	type:'p',
+	title:'宝贝在哪里？'	
+},
+{
+	type:'l',
+	title:'我在你的心里啊'	
+},
+{
+	type:'time',
+	title:'2020年2月16日 10:36'
+},
+{
+	type:'l',
+	title:'彭老师，脑壳里是不是有泡泡'	
+},
+{
+	type:'p',
+	title:'老袋里面都是我宝贝'	
+},
+{
+	type:'l',
+	title:'你说我是泡泡'	
+},
+{
+	type:'l',
+	title:'对了，还没有谢谢彭先生送的口红呢，'	
+},
+{
+	type:'li',
+	img:'img/21.jpg'	
+},{
+	type:'li',
+	img:'img/22.jpg'	
+},{
+	type:'li',
+	img:'img/23.jpg'	
+},
+{
+	type:'l',
+	title:'我要抹着彭老师送的口红出去浪'	
+},
+{
+	type:'time',
+	title:'2020年2月16日 11:36'
+},
+{
+	type:'l',
+	title:'老公你买的那个饮料，老板给我打电话了，说人家的店还没有开门'	,
+},
+{
+	type:'l',
+	title:'你把订单取消吧！'	
+},
+{
+	type:'p',
+	title:'好嘛，宝贝'	
+},
+{
+	type:'l',
+	title:'心意收到啦'	
+},
+{
+	type:'l',
+	title:'么么哒'	
+},
+
+{
+	type:'p',
+	title:'爱你'	
+},
+{
+	type:'l',
+	title:'爱你哦！'	
+},
+{
+	type:'time',
+	title:'2020年2月16日 12:36'
+},
+{
+	type:'pi',
+	img:'img/24.jpg'	
+},
+{
+	type:'p',
+	title:'宝贝，你看，天气多好，万里无云，就是我现在的心情'	
+},
+{
+	type:'l',
+	title:'不好'	
+},
+{
+	type:'l',
+	title:'因为我不在'	
+},
+{
+	type:'p',
+	title:'就需要我宝贝老婆来点缀一下'	
+},
+{
+	type:'l',
+	title:'我是点缀吗'	
+},
+{
+	type:'p',
+	title:'你是我心里面最美的花，最美的点缀'	
+},
+{
+	type:'l',
+	title:'彭老师就不是点缀，点缀可有可无，彭老师是最重要的'	
+},
+{
+	type:'p',
+	title:'宝贝，饭做好了没有'	
+},
+{
+	type:'l',
+	title:'我都吃过啦'	
+},
+{
+	type:'p',
+	title:'我都没有看到'	
+},
+{
+	type:'l',
+	title:'不给你看'	
+},
+{
+	type:'l',
+	title:'怕彭老师再对我更喜欢了'	
+},
+{
+	type:'p',
+	title:'就要更喜欢'	
+},
+{
+	type:'l',
+	title:'不不'	
+},
+{
+	type:'l',
+	title:'我还是留着点，让你慢慢发现我的好'	
+},
+{
+	type:'p',
+	title:'宝贝，我爱你'	
+},
+{
+	type:'l',
+	title:'嘻嘻'	
+},
+{
+	type:'time',
+	title:'2020年2月16日 17:36'
+},
+{
+	type:'p',
+	title:'宝贝，我好想你哦'	
+},
+{
+	type:'l',
+	title:'那我以后不那么乖了'	
+},
+{
+	type:'l',
+	title:'太乖的话彭老师更想'	
+},
+{
+	type:'p',
+	title:'我宝贝咋个都乖'	
+},
+{
+	type:'p',
+	title:'我在想叔叔阿姨为什么会生出那么优秀，那么好的宝贝出来'	
+},
+{
+	type:'p',
+	title:'我要感谢他们'	
+},
+{
+	type:'l',
+	title:'啧啧……这嘴，阿姨晚上做的啥，嘴这么甜'	
+},
+{
+	type:'p',
+	title:'我是实话实说'	
+},
+{
+	type:'l',
+	title:'切'	
+},
+{
+	type:'time',
+	title:'2020年2月16日 19:36'
+},
+{
+	type:'p',
+	title:'老婆老婆老婆'	
+},
+{
+	type:'l',
+	title:'在呀在呀在呀'	
+},
+{
+	type:'l',
+	title:'咋滴啦，彭老师'	
+},
+{
+	type:'p',
+	title:'想你了'	
+},
+{
+	type:'l',
+	title:'我也想你呀'	
+},
+{
+	type:'p',
+	title:'宝贝，我想亲你'	
+},
+{
+	type:'l',
+	title:'来'	
+},
+{
+	type:'l',
+	title:'我等着你'	
+},
+{
+	type:'p',
+	title:'谁怕谁'	
+},
+{
+	type:'l',
+	title:'爷，来呀'	
+},
+{
+	type:'p',
+	title:'这么彪悍的吗'	
+},
+{
+	type:'p',
+	title:'爷等几天在来'	
+},
+{
+	type:'p',
+	title:'等几天来，让宝贝知道爷的厉害'	
+},
+{
+	type:'l',
+	title:'你是不是欠揍'	
+},
+{
+	type:'p',
+	title:'宝贝，你这是赤裸裸的诱惑我啊'	
+},
+{
+	type:'l',
+	title:'我没有'	
+},
+{
+	type:'l',
+	title:'我说我等着你来陪我去散步，陪我去逛街，陪我去打针，陪我去吃好吃的……咦，你想的啥'	
+},
+{
+	type:'p',
+	title:'我也在想这个啊………咦，你在想啥，你这个大坏蛋'	
+},
+{
+	type:'l',
+	title:'异地恋真的很单纯，不图钱也图不到身体，唯有那深深地思念和爱意。一想到对方也在很努力的爱我，我就觉得再孤单也是甜的。'	
+},
+{
+	type:'l',
+	title:'有这么可靠的彭老师，心里都是暖暖的'	
+},
+{
+	type:'li',
+	img:'img/25.jpg'	
+},
+{
+	type:'p',
+	title:'宝贝，嗯嗯，好可爱哦'	
+},{
+	type:'p',
+	title:'我宝贝可以抱着它睡觉'	
+},
+{
+	type:'l',
+	title:'嗯嗯'	
+},
+{
+	type:'p',
+	title:'爱你，宝贝'	
+},
+{
+	type:'l',
+	title:'爱你哦'	
+},
+ {
+	type:'time',
+	title:'2020年2月29日 23:36'
+},
+{
+	type:'l',
+	title:'哦。好，休息吧！'	
+},
+{
+	type:'p',
+	title:'不要嘛 宝贝，我现在满脑子装得都是呢得倩影，咋个睡得着嘛'	
+},
+{
+	type:'l',
+	title:'那你就别睡'	
+},
+{
+	type:'p',
+	title:'不睡不睡'	
+},
+{
+	type:'p',
+	title:'打死不睡'	
+},
+{
+	type:'l',
+	title:'随便你'	
+},
+{
+	type:'p',
+	title:'宝贝，看来我在我老婆面前，我的脸皮还是不够厚'	
+},
+{
+	type:'p',
+	title:'当时我宝贝不说话 我就应该脸皮更厚的，或者不要脸皮的就赖着我老婆的'	
+},
+{
+	type:'l',
+	title:'我把手机早就充满电，想晚上跟你说悄悄话，结果变成了生气，一点心情都没有了，没有就算了，下次再想聊天聊很晚一个周以后'	
+},
+{
+	type:'p',
+	title:'我想你现在一定一定很生气 ，很忙很忙，所以，宝贝你就只看前三个字酒要的了'	
+},
+{
+	type:'l',
+	title:'随便你睡不睡，我睡了'	
+},
+{
+	type:'p',
+	title:'我要一直说，一直说'	
+},
+{
+	type:'p',
+	title:'我要一直烦着我老婆'	
+},
+{
+	type:'l',
+	title:'我不回'	
+},
+{
+	type:'p',
+	title:'不回我都要说'	
+},
+{
+	type:'l',
+	title:'随便你'	
+},
+{
+	type:'p',
+	title:'宝贝，一生爱你，因你的笑而笑，因你的痛而痛，所以当你不说话时，我内心没有了方寸'	
+},
+{
+	type:'l',
+	title:'4年才会遇到一次的日子，又是我们在一起一个月的日子，用来生气！'	
+},
+{
+	type:'p',
+	title:'宝贝，爱情和生活没有十全十美，宝贝，我们只要十全九美就要的了'	
+},
+{
+	type:'l',
+	title:'无数次后悔当初为什么要在一起'	
+},
+{
+	type:'l',
+	title:'我就要十全十美'	
+},
+{
+	type:'p',
+	title:'宝贝，爱情和生活没有十全十美，宝贝，我们只要十全九美就要的了'	
+},
+{
+	type:'l',
+	title:'无数次后悔当初为什么要在一起'	
+},
+{
+	type:'time',
+	title:'2020年3月11日 12:36'
+},
+{
+	type:'p',
+	title:'宝贝，我给你打电话了哦'	
+},
+{
+	type:'l',
+	title:'回来啦'	
+},
+{
+	type:'p',
+	title:'那么快'	
+},
+{
+	type:'p',
+	title:'宝贝，吃完了嘛？'	
+},
+{
+	type:'l',
+	title:'正在吃'	
+},
+{
+	type:'p',
+	title:'我看看？'	
+},
+{
+	type:'l',
+	title:'看啥'	
+},
+{
+	type:'p',
+	title:'你吃的'	
+},
+{
+	type:'l',
+	title:'你吃了没'	
+},
+{
+	type:'p',
+	title:'还没有'	
+},
+{
+	type:'l',
+	title:'还在开ya'	
+},
+{
+	type:'p',
+	title:'对啊'	
+},
+{
+	type:'l',
+	title:'辛苦辛苦'	
+},
+{
+	type:'l',
+	title:'看到小白老公了'	
+},
+{
+	type:'p',
+	title:'帅不'	
+},
+{
+	type:'l',
+	title:'看跟谁比'	
+},
+{
+	type:'l',
+	title:'我心里有人了'	
+},
+{
+	type:'p',
+	title:'根你老公撒'	
+},
+{
+	type:'l',
+	title:'那没法比'	
+},
+{
+	type:'li',
+	img:'img/26.jpg'	
+},
+{
+	type:'p',
+	title:'乖乖，想你了'	
+},
+{
+	type:'l',
+	title:'我也想'	
+},
+{
+	type:'time',
+	title:'2020年3月11日 14:36'
+},
+{
+	type:'l',
+	title:'我跟毛哥被刘姐的优秀彻底伤到了，'	
+},
+{
+	type:'l',
+	title:'开始怀疑人生了'	
+},
+{
+	type:'l',
+	title:'我跟毛哥俩简直就是混吃等死类的，我必须在30岁之前把注册税务师拿下来，'	
+},
+{
+	type:'p',
+	title:'宝贝，我乖乖也很优秀啊'	
+},
+{
+	type:'l',
+	title:'我俩简直就是幼儿园'	
+},
+{
+	type:'p',
+	title:'咋个了，乖乖'	
+},
+{
+	type:'l',
+	title:'回家跟你说'	
+},
+{
+	type:'time',
+	title:'2020年3月11日 20:36'
+},
+{
+	type:'li',
+	img:'img/27.jpg'	
+},
+{
+	type:'l',
+	title:'唉，'	
+},
+{
+	type:'l',
+	title:'都想放弃，'	
+},
+{
+	type:'p',
+	title:'宝贝，不要给自己太大压力'	
+},
+{
+	type:'p',
+	title:'什么事都是一步步来，咱先顶一个小目标'	
+},
+{
+	type:'p',
+	title:'宝贝，你想想，学习的目的是为了什么，是为了让自己快乐高兴，现在已经有一点违背这个原则了'	
+},
+       
+{
+	type:'l',
+	title:'记得提醒我，我怕记不住'	
+},
+{
+	type:'l',
+	title:'报名'	
+},
+{
+	type:'p',
+	title:'没有问题，宝贝'	
+},
+{
+	type:'p',
+	title:'包在老公身上'	
+},
+{
+	type:'l',
+	title:'滚'	
+},
+{
+	type:'p',
+	title:'这个才是我熟悉的那个乖乖撒'	
+},
+{
+	type:'li',
+	img:'img/29.jpg'	
+},
+{
+	type:'l',
+	title:'快看，乖不乖'	
+},
+{
+	type:'p',
+	title:'乖，袜子乖，人嘛，没有看的'	
+},
+{
+	type:'l',
+	title:'不高兴'	
+},
+{
+	type:'li',
+	img:'img/30.jpg'	
+},
+{
+	type:'time',
+	title:'2020年3月15日 12:36'
+},
+{
+	type:'p',
+	title:'所以不管将来发生什么事，你变成什么样，你依然是我最爱的女神'	
+},
+{
+	type:'p',
+	title:'我现在每一天的心跳都是为了你而跳，有你的感觉真好'	
+},
+{
+	type:'p',
+	title:'以后我会紧紧的抱着你，一直到我们离开的能一刻'	
+},
+{
+	type:'p',
+	title:'宝贝，我只要一想到你的笑容，我就发现我是世界上最幸福的人'	
+},
+{
+	type:'p',
+	title:'所以，亲爱的，有我在，委屈全部都告诉我'	
+},
+{
+	type:'p',
+	title:'我会一直陪你'	
+},
+{
+	type:'l',
+	title:'哦'	
+},
+{
+	type:'time',
+	title:'2020年3月15日 12:36'
+},
+{
+	type:'l',
+	title:'清明你别来'	
+},{
+	type:'l',
+	title:'那么多人'	
+},
+{
+	type:'p',
+	title:'我早一点来'	
+},
+{
+	type:'l',
+	title:'聚集人多'	
+},
+{
+	type:'p',
+	title:'没事，现在这个除了湖北，其他地方都慢慢好起来了'	
+},
+{
+	type:'p',
+	title:'宝贝，我说过，现在我只要两件事做，第一是让自己变得优秀，第二是爱你'	
+}
+,{
+	type:'l',
+	title:'人多'	
+},
+{
+	type:'p',
+	title:'现在机场管的好严哦，没事'	
+},
+{
+	type:'l',
+	title:'那等20几号再来看，看这个病是咋发展的'	
+},
+{
+	type:'p',
+	title:'三月二十几号啊'	
+},
+{
+	type:'l',
+	title:'恩'	
+},
+{
+	type:'p',
+	title:'对啊，那没有几天了哒嘛'	
+},
+{
+	type:'l',
+	title:'我是怕现在你把票定了，到时候病突然严重，你也不安全啊'	
+},
+{
+	type:'p',
+	title:'我怕到时候没票哒嘛'	
+},
+{
+	type:'l',
+	title:'反正不能现在订'	
+},
+{
+	type:'l',
+	title:'你要不听我的，那随便你'	
+},
+{
+	type:'p',
+	title:'好嘛好嘛，乖乖，我听你的'	
+},
+{
+	type:'l',
+	title:'恩'	
+},
+{
+	type:'p',
+	title:'乖乖，亲一下嘛'	
+},
+{
+	type:'l',
+	title:'想得美'	
+},
+{
+	type:'p',
+	title:'幺幺，你的馒头弄完了吗'	
+},
+{
+	type:'p',
+	title:'我看看我宝贝的杰作'	
+},
+{
+	type:'l',
+	title:'不可以'	
+},
+{
+	type:'p',
+	title:'给老公看看'	
+},
+{
+	type:'l',
+	title:'不'	
+},
+{
+	type:'p',
+	title:'我想看我宝贝最贤惠的样子'	
+},
+{
+	type:'l',
+	title:'馒头刚蒸上'	
+},
+{
+	type:'p',
+	title:'我还想看呢'	
+},
+{
+	type:'l',
+	title:'我就随便弄个形状就完了'	
+},
+{
+	type:'l',
+	title:'家人吃，'	
+},
+{
+	type:'l',
+	title:'又不拿去卖'	
+},
+{
+	type:'li',
+	img:'img/ll.jpg'	
+},
+{
+	type:'time',
+	title:'2020年3月17日 8:36'
+},
+{
+	type:'l',
+	title:'我觉得是最近对自已对工作都有点松懈，导致的懒散'	
+},
+{
+	type:'p',
+	title:'咋个可能，宝贝，我觉得你上班比我还认真'	
+},
+{
+	type:'l',
+	title:'不行，必须要调整一下状态了'	
+},
+{
+	type:'p',
+	title:'宝贝，要咋个调整嘛，我们一起'	
+},
+{
+	type:'l',
+	title:'各管各'	
+},
+{
+	type:'p',
+	title:'但是我要晓得我媳妇咋个调整撒'	
+},
+{
+	type:'l',
+	title:'你单身'	
+},
+{
+	type:'p',
+	title:'我叫彭浪，不叫单身'	
+},
+{
+	type:'l',
+	title:'我只知道我的老公叫彭老师'	
+},
+{
+	type:'time',
+	title:'2020年3月17日 17:36'
+},
+{
+	type:'l',
+	title:'老公，我睡得浑身难受'	
+},{
+	type:'l',
+	title:'可是又困'	
+},
+{
+	type:'p',
+	title:'宝贝，不要着凉了'	
+},
+{
+	type:'l',
+	title:'不冷，只是现在还没醒过来的'	
+},
+{
+	type:'p',
+	title:'调整一下睡姿'	
+},
+{
+	type:'p',
+	title:'没事，宝贝，再眯一会'	
+},
+{
+	type:'l',
+	title:'手撑着头'	
+},
+{
+	type:'l',
+	title:'躺在椅子上'	
+},
+{
+	type:'l',
+	title:'趴在桌子'	
+},
+{
+	type:'l',
+	title:'我都试了'	
+},
+{
+	type:'p',
+	title:'宝贝，明天我提醒你把睡枕拿来'	
+},
+{
+	type:'p',
+	title:'不然不好睡觉，睡觉都不舒服'	
+},
+{
+	type:'p',
+	title:'乖乖，再眯一会哈'	
+},
+{
+	type:'l',
+	title:'都眯了好一会了'	
+},
+{
+	type:'l',
+	title:'睡的脖子疼'	
+},
+{
+	type:'p',
+	title:'就是睡姿，然后压着脖子'	
+},
+{
+	type:'p',
+	title:'宝贝，活动活动，会好一点的'	
+},
+{
+	type:'l',
+	title:'你是没休息吗'	
+},
+{
+	type:'p',
+	title:'刚刚把要改的东西改完了'	
+},
+{
+	type:'l',
+	title:'你要眯一会不'	
+},
+{
+	type:'p',
+	title:'不要，快上课了，满满上课，没得事 我的乖乖，就是想你了'	
+},
+{
+	type:'l',
+	title:'是不是可累'	
+},
+{
+	type:'p',
+	title:'不累，一点都不累'	
+},
+{
+	type:'p',
+	title:'就是想你'	
+},
+{
+	type:'li',
+	img:'img/31.jpg'	
+},
+{
+	type:'li',
+	img:'img/32.jpg'	
+},
+{
+	type:'l',
+	title:'你吃饭了吗'	
+},
+{
+	type:'p',
+	title:'吃了，已经吃过了'	
+},
+{
+	type:'p',
+	title:'就是特别特别的想你'	
+},
+{
+	type:'l',
+	title:'嗯嗯，乖'	
+},
+{
+	type:'l',
+	title:'我也想你，彭老师辛苦了，应该抱抱你的，'	
+},
+{
+	type:'p',
+	title:'宝贝，你就是我的精神食粮，只要一想到你，我就撒子都不会累'	
+},
+{
+	type:'p',
+	title:'干劲十足'	
+},
+{
+	type:'l',
+	title:'可是我心疼呀'	
+},
+{
+	type:'p',
+	title:'有我宝贝乖乖心疼，我就满足了'	
+},
+{
+	type:'l',
+	title:'肯定还是有点累累的，'	
+},
+{
+	type:'l',
+	title:'都不能给彭老师抱抱'	
+},
+{
+	type:'p',
+	title:'不累，因为有你，所以我觉得什么都不是事，真的，宝贝，我爱你'	
+},
+{
+	type:'l',
+	title:'嗯嗯，欠亲爱的一个抱抱'	
+},
+{
+	type:'li',
+	img:'img/33.jpg'	
+},
+{
+	type:'p',
+	title:'我下次我要讨回来的，宝贝'	
+},
+{
+	type:'l',
+	title:'滚滚'	
+},
+{
+	type:'li',
+	img:'img/34.jpg'	
+},
+{
+	type:'p',
+	title:'加倍哦，幺幺'	
+},
+{
+	type:'l',
+	title:'不'	
+},
+{
+	type:'l',
+	title:'就欠你一个'	
+},
+{
+	type:'l',
+	title:'我只认一个'	
+},
+{
+	type:'p',
+	title:'只欠我一个人'	
+},
+{
+	type:'l',
+	title:'我不是人'	
+},
+{
+	type:'p',
+	title:'对，你不是人'	
+},
+{
+	type:'p',
+	title:'你是女神'	
+},
+{
+	type:'li',
+	img:'img/35.jpg'	
+},
+{
+	type:'l',
+	title:'我可不认'	
+},
+{
+	type:'p',
+	title:'你说你是女神'	
+},
+{
+	type:'l',
+	title:'我没说'	
+},
+{
+	type:'p',
+	title:'你说出了我的心思'	
+},
+{
+	type:'li',
+	img:'img/36.jpg'	
+},
+ {
+	type:'time',
+	title:'2020年3月22日 10:36'
+},
+{
+	type:'l',
+	title:'刚把买回来的菜都收拾好'	
+},
+{
+	type:'li',
+	img:'img/37.jpg'	
+},
+{
+	type:'p',
+	title:'有点大哦，一个赶得上你的小手的你一小半哦'	
+},
+{
+	type:'l',
+	title:'好吃'	
+},
+{
+	type:'l',
+	title:'你买面包了没'	
+},
+{
+	type:'p',
+	title:'买了，已经，明天早上吃的，宝贝那么诱人的草莓一个人吃，不香'	
+},
+{
+	type:'l',
+	title:'只能我一个人吃'	
+},
+{
+	type:'p',
+	title:'你吃草莓，我吃你'	
+},
+{
+	type:'p',
+	title:'乖乖，你在干嘛呀'	
+},
+{
+	type:'l',
+	title:'小龙虾都有了'	
+},
+{
+	type:'l',
+	title:'真是天气开始热了'	
+},
+{
+	type:'p',
+	title:'宝贝，你是不是想裙子穿裙子了'	
+},
+{
+	type:'l',
+	title:'减肥再穿'	
+},
+{
+	type:'p',
+	title:'我老丈人没有在家吗'	
+},
+{
+	type:'l',
+	title:'我做好了，他又去舅舅家吃饭去了，吃完打牌'	
+},
+{
+	type:'l',
+	title:'鱼，回锅肉，炒个丝瓜，做个油麦菜汤，'	
+},
+{
+	type:'p',
+	title:'可以可以，宝贝，你就该这样吃才对'	
+},
+{
+	type:'p',
+	title:'有蛋白质，蛋白质还丰富'	
+},
+{
+	type:'p',
+	title:'对身体好'	
+},
+{
+	type:'p',
+	title:'晚上可以少吃一点点，养生'	
+},
+{
+	type:'l',
+	title:'切'	
+},
+{
+	type:'l',
+	title:'他要是不在家吃，'	
+},
+{
+	type:'l',
+	title:'我就只做一个就可以了'	
+},
+{
+	type:'p',
+	title:'宝贝，看来我老丈人不领情哦，看你做饭却跑了'	
+},
+{
+	type:'l',
+	title:'他是想打牌'	
+},
+{
+	type:'p',
+	title:'哎，我想要这个口福啊'	
+},
+{
+	type:'li',
+	img:'img/38.jpg'	
+},
+{
+	type:'p',
+	title:'宝贝，早上你说要想一想的哒嘛，想的怎么样'	
+},
+{
+	type:'l',
+	title:'想撒子'	
+},
+{
+	type:'p',
+	title:'就是我四月中旬来啊'	
+},
+{
+	type:'p',
+	title:'你说要想一想哒嘛'	
+},
+{
+	type:'l',
+	title:'哦，我现在想'	
+},
+{
+	type:'p',
+	title:'老公真的好想好想你哦，乖乖宝贝'	
+},
+{
+	type:'l',
+	title:'4月什么时候'	
+},
+{
+	type:'p',
+	title:'17号嘛'	
+},
+{
+	type:'l',
+	title:'那你什么时候回'	
+},
+{
+	type:'p',
+	title:'20号'	
+},
+{
+	type:'l',
+	title:'我考虑一下下'	
+},
+{
+	type:'p',
+	title:'我好想你，乖乖宝贝'	
+},
+{
+	type:'l',
+	title:'我一般想'	
+},
+{
+	type:'p',
+	title:'宝贝，你一定要好好考虑，认真考虑，然后给我说你订嘛'	
+},
+{
+	type:'l',
+	title:'我肯定是好好考虑'	
+},
+{
+	type:'p',
+	title:'你也快点考虑哦'	
+},
+{
+	type:'l',
+	title:'我怕你来吧，天津好多都没开，都没办法一起逛'	
+},
+{
+	type:'l',
+	title:'我换个衣服'	
+},
+{
+	type:'li',
+	img:'img/39.jpg'	
+},
+{
+	type:'p',
+	title:'宝贝，我能不能偷看哦'	
+},
+{
+	type:'time',
+	title:'2020年3月24日 20:36'
+},
+{
+	type:'p',
+	title:'乖乖，我定了'	
+},
+{
+	type:'l',
+	title:'到哪里'	
+},
+{
+	type:'p',
+	title:'重庆'	
+},
+{
+	type:'l',
+	title:'几点'	
+},
+{
+	type:'p',
+	title:'5点'	
+},
+{
+	type:'l',
+	title:'怎么那么晚'	
+},
+{
+	type:'p',
+	title:'没事'	
+},
+{
+	type:'l',
+	title:'你肯定会很累'	
+},
+{
+	type:'p',
+	title:'不会的宝贝'	
+},
+{
+	type:'l',
+	title:'心疼'	
+},
+{
+	type:'time',
+	title:'2020年4月4日 4:36'
+},
+{
+	type:'p',
+	title:'乖乖媳妇，宝贝，醒了没有'	
+},
+{
+	type:'l',
+	title:'傻不傻'	
+},
+{
+	type:'p',
+	title:'我就晓得你醒了哒嘛'	
+},
+{
+	type:'l',
+	title:'我想让你多睡会哈，亲爱的'	
+},
+{
+	type:'p',
+	title:'但是我不想我的爱人一个人，睡不着啊'	
+},
+{
+	type:'l',
+	title:'你都是睡12个小时的'	
+},
+{
+	type:'p',
+	title:'宝贝，老公想你了哒嘛'	
+},
+{
+	type:'l',
+	title:'我也想你呀'	
+},
+{
+	type:'l',
+	title:'想也烦躁'	
+},
+{
+	type:'p',
+	title:'但是我不能让我的女人一个人睡不着啊'	
+},
+{
+	type:'l',
+	title:'我又不是第一天睡不着'	
+},
+{
+	type:'p',
+	title:'我晓得你平时怕我不够睡，影响上课，但是今天放假哒嘛'	
+},
+{
+	type:'l',
+	title:'你现在肯定也很困'	
+},
+{
+	type:'p',
+	title:'不困'	
+},
+{
+	type:'l',
+	title:'你赶紧继续睡啦'	
+},
+{
+	type:'p',
+	title:'老婆，我们说一会话嘛，好不好'	
+},
+{
+	type:'l',
+	title:'不好'	
+},
+{
+	type:'p',
+	title:'老公爱你'	
+},
+{
+	type:'l',
+	title:'切'	
+},
+{
+	type:'p',
+	title:'乖乖，让老公听听我宝贝的声音嘛'	
+},
+{
+	type:'l',
+	title:'彭老师'	
+},
+{
+	type:'l',
+	title:'一点都不乖'	
+},
+{
+	type:'p',
+	title:'乖乖宝贝，就听听嘛'	
+},
+{
+	type:'l',
+	title:'彭老师，不乖哦'	
+},
+{
+	type:'p',
+	title:'老婆乖，但是就想听听宝贝的声音，听一句，好不好'	
+},
+{
+	type:'p',
+	title:'老婆，就一句，听完了老公就睡觉，好不好'	
+},
+{
+	type:'li',
+	img:'img/40.jpg'	
+},
+{
+	type:'l',
+	title:'彭老师'	
+},
+{
+	type:'p',
+	title:'在呢，幺幺'	
+},
+{
+	type:'l',
+	title:'快点睡啦你'	
+},
+{
+	type:'p',
+	title:'就听一句嘛，老婆大人'	
+},
+{
+	type:'l',
+	title:'我是经常这个点醒 '	
+},
+{
+	type:'l',
+	title:'你是被动醒的 '	
+},
+{
+	type:'l',
+	title:'听话 '	
+},
+{
+	type:'p',
+	title:'一样是醒了哒嘛'	
+},
+{
+	type:'l',
+	title:'我心疼我的彭老师呀 '	
+},
+{
+	type:'l',
+	title:'快点睡 '	
+},
+{
+	type:'l',
+	title:'奖励一个亲亲，么么哒 '	
+},
+{
+	type:'p',
+	title:'好嘛，我的老婆大人，我听话'	
+},
+{
+	type:'l',
+	title:'真乖 '	
+},
+{
+	type:'p',
+	title:'在亲一下嘛'	
+},
+{
+	type:'l',
+	title:'么么哒 '	
+},
+{
+	type:'time',
+	title:'2020年4月8日 14:36'
+},
+{
+	type:'p',
+	title:'你问我爱你有多深，月亮代表我的心'	
+},
+{
+	type:'l',
+	title:'月亮招谁惹谁了，要替你们男人背锅 '	
+},
+{
+	type:'p',
+	title:'当你不在身边的时候,自己的心,很孤单,好象做什么都没有心思'	
+},
+{
+	type:'p',
+	title:'尤其是你不理我的时候'	
+},
+{
+	type:'p',
+	title:'让我呼吸都不流畅了'	
+},
+{
+	type:'l',
+	title:'哪天月亮生气了，晚上不出来了，看你们拿啥来说 '	
+},
+{
+	type:'p',
+	title:'乖乖，不求爱到天荒地老,只求握着你的手相依到白头'	
+},
+{
+	type:'l',
+	title:'这又是在哪里学的 '	
+},
+{
+	type:'p',
+	title:'乖乖宝贝，老公会一直爱你，直到你不需要我为止'	
+},
+{
+	type:'l',
+	title:'啥叫我不需要你 '	
+},
+{
+	type:'l',
+	title:'哪天我不爱你了，也是因为我感受不到你的爱才分手的 '	
+},
+{
+	type:'p',
+	title:'我不会的，你是上天给我的恩赐'	
+},
+{
+	type:'l',
+	title:'所不定呢 '	
+},
+{
+	type:'p',
+	title:'乖乖，我对你的爱，已经刻骨铭心了'	
+},
+{
+	type:'l',
+	title:'啧啧 '	
+},
+{
+	type:'l',
+	title:'我可没那么厉害 '	
+},
+{
+	type:'p',
+	title:'有'	
+},
+{
+	type:'l',
+	title:'没有 '	
+},
+{
+	type:'p',
+	title:'乖乖，有一句歌词，我觉得很好：如果你疲倦了外面的风风雨雨，就留在我身边做我老婆好不好'	
+},
+{
+	type:'l',
+	title:'代沟 '	
+},
+{
+	type:'l',
+	title:'我俩真的有代沟 '	
+},
+{
+	type:'l',
+	title:'我怎么感觉你是我爸爸那个年代的 '	
+},
+{
+	type:'p',
+	title:'有没有代沟我不晓得，但是乳沟你是一定有的'	
+},
+{
+	type:'l',
+	title:'滚 '	
+},
+{
+	type:'l',
+	title:'还在培训啊 '	
+},
+{
+	type:'p',
+	title:'刚刚完了，老婆'	
+},
+{
+	type:'l',
+	title:'辛苦了，亲爱的 '	
+},
+{
+	type:'p',
+	title:'不辛苦，有你一切都是美好的'	
+},
+{
+	type:'l',
+	title:'啧啧'	
+},
+{
+	type:'li',
+	img:'img/41.jpg'	
+},
+{
+	type:'p',
+	title:'我爱你，老婆'	
+},
+{
+	type:'time',
+	title:'2020年4月10日 11:36'
+},
+{
+	type:'p',
+	title:'老公想你了哒嘛'	
+},
+{
+	type:'l',
+	title:'哦'	
+},
+{
+	type:'p',
+	title:'乖乖马上下班了哦'	
+},
+{
+	type:'l',
+	title:'恩恩'	
+},
+{
+	type:'p',
+	title:'快了，乖乖，还有13天，老公就来了'	
+},
+{
+	type:'l',
+	title:'呜呜'	
+},
+{
+	type:'l',
+	title:'还是很久'	
+},
+{
+	type:'p',
+	title:'乖乖，不哭不哭，乖，老公心疼'	
+},
+{
+	type:'l',
+	title:'哼'	
+},
+{
+	type:'p',
+	title:'乖乖，老公真的好想好想你，真的想把你搂在怀里'	
+},
+{
+	type:'l',
+	title:'几千公里'	
+},
+{
+	type:'l',
+	title:'你楼一个，我看看、'	
+},
+{
+	type:'p',
+	title:'飞机，两个小时哒嘛,到时候搂给你看'	
+},
+{
+	type:'l',
+	title:'还要坐车呢'	
+},
+{
+	type:'l',
+	title:'3个半'	
+},
+{
+	type:'l',
+	title:'加起来就一天'	
+},
+{
+	type:'p',
+	title:'老公心里面火热撒'	
+},
+{
+	type:'p',
+	title:'不是，星期五去，星期一回来'	
+},
+{
+	type:'p',
+	title:'三天，乖乖宝贝'	
+},
+{
+	type:'l',
+	title:'2天'	
+},
+{
+	type:'l',
+	title:'唉'	
+},
+{
+	type:'p',
+	title:'星期一晚上了哒嘛'	
+},
+{
+	type:'l',
+	title:'感觉都舍不得睡觉'	
+},
+{
+	type:'p',
+	title:'我们就是全天腻在一起'	
+},
+{
+	type:'p',
+	title:'然后把我媳妇哄回来'	
+},
+{
+	type:'p',
+	title:'乖乖，回来嘛，好不好'	
+},
+{
+	type:'l',
+	title:'不回'	
+},
+{
+	type:'li',
+	img:'img/42.jpg'	
+},
+{
+	type:'time',
+	title:'2020年4月10日 19:36'
+},
+{
+	type:'li',
+	img:'img/43.jpg'	
+},
+{
+	type:'l',
+	title:'这个蓝牙耳机套，好紧啊'	
+},
+{
+	type:'l',
+	title:'费好大劲才取下来'	
+},
+{
+	type:'p',
+	title:'乖乖就是要紧才好哒嘛，免得掉了'	
+},
+{
+	type:'l',
+	title:'我要取出来的时候，不好取'	
+},
+{
+	type:'l',
+	title:'也太紧了'	
+},
+{
+	type:'p',
+	title:'乖乖，这种不是只需要把耳机拿出来就行了嘛，壳壳不需要随时取'	
+},
+{
+	type:'l',
+	title:'我就是想换一个壳可以不'	
+},
+{
+	type:'l',
+	title:'哼'	
+},
+{
+	type:'p',
+	title:'我就说这个有点不好看，我乖乖咋个会喜欢吗'	
+},
+{
+	type:'p',
+	title:'我还纳闷呢，乖乖宝贝'	
+},
+{
+	type:'l',
+	title:'你给我滚'	
+},
+{
+	type:'p',
+	title:'我想给你选一个最好看的，和我一样好看的'	
+},
+{
+	type:'l',
+	title:'你啊要是生在革命年代，绝对是个叛徒或者特务'	
+},
+{
+	type:'l',
+	title:' 都不用日本人用刑，马上叛变'	
+},
+{
+	type:'p',
+	title:'不会不会，爱我乖乖的心永远不变'	
+},
+{
+	type:'p',
+	title:'宝贝，老公这不是想给你选一个哒嘛'	
+},
+{
+	type:'l',
+	title:' 真是谢谢你的良苦用心'	
+},
+{
+	type:'time',
+	title:'2020年4月29日 12:36'
+},
+{
+	type:'p',
+	title:'乖乖，我真的想订票了，五天时间，老公忍不住了'	
+},
+{
+	type:'p',
+	title:'就算你打我，骂我，我都不管，我就想把你搂在我的怀里面'	
+},
+{
+	type:'p',
+	title:'所以，乖乖老公管不了那么多了'	
+},
+{
+	type:'l',
+	title:' 不行'	
+},
+{
+	type:'l',
+	title:'如果你都不跟我商量'	
+},
+{
+	type:'l',
+	title:' 那你单身好了'	
+},
+{
+	type:'l',
+	title:'你自己什么都可以决定'	
+},
+{
+	type:'p',
+	title:'但是老公忍不住啊'	
+},
+{
+	type:'p',
+	title:'老公真的好想好想你'	
+},
+{
+	type:'l',
+	title:'你不问我意见'	
+},
+{
+	type:'l',
+	title:'以后我的事你也别管'	
+},
+{
+	type:'p',
+	title:'乖乖媳妇'	
+},
+{
+	type:'p',
+	title:'你就忍得住吗'	
+},
+{
+	type:'l',
+	title:'忍得住吧'	
+},
+{
+	type:'p',
+	title:'你看，乖乖，你自己都不肯定'	
+},
+{
+	type:'p',
+	title:'有自己的思想和看法，我们在一起高兴愉快幸福比撒子都强'	
+},
+{
+	type:'p',
+	title:'乖乖，你就答应老公嘛，好不好'	
+},
+{
+	type:'p',
+	title:'老公想你，现在每天我都过得就像度日如年一样'	
+},
+{
+	type:'p',
+	title:'乖乖 你爱我，我爱你，相爱为什么不能在五一的时候一起愉快的度过'	
+},
+{
+	type:'l',
+	title:'睡觉'	
+},
+{
+	type:'l',
+	title:'你都不困的吗'	
+},
+{
+	type:'p',
+	title:'我在想你'	
+},
+{
+	type:'l',
+	title:'那就陪我睡觉  '	
+},
+{
+	type:'time',
+	title:'2020年5月2日 12:36'
+},
+{
+	type:'p',
+	title:'老婆，我好想你哦'	
+},
+{
+	type:'l',
+	title:'我也想你  '	
+},
+{
+	type:'l',
+	title:'真是的，爸爸回来了说没吃饭，我妈妈就跑过来叫我做饭，我说我刚洗完澡了，我不做，  '	
+},
+{
+	type:'p',
+	title:'乖乖辛苦了'	
+},
+{
+	type:'l',
+	title:'我没做'	
+},
+{
+	type:'l',
+	title:'妈妈去做了'	
+},
+{
+	type:'p',
+	title:'洗完澡了就算了'	
+},
+{
+	type:'l',
+	title:'对呀'	
+},
+{
+	type:'l',
+	title:'要不然都是油烟'	
+},
+{
+	type:'p',
+	title:'乖乖，老公想和你一起洗澡'	
+},
+{
+	type:'l',
+	title:'滚'	
+},
+{
+	type:'l',
+	title:'你洗漱好没'	
+},
+{
+	type:'l',
+	title:'我等下给你打'	
+},
+{
+	type:'p',
+	title:'乖乖，老公想你了'	
+},
+{
+	type:'l',
+	title:'你都不跟我说晚安'	
+},
+{
+	type:'l',
+	title:'你睡了吗'	
+},
+{
+	type:'p',
+	title:'乖乖，就说几句嘛'	
+},
+{
+	type:'l',
+	title:'你刚才不是一分钟吗'	
+},
+{
+	type:'l',
+	title:'你是一分钟吗'	
+},
 ]
 //琳琳文字
 var a = {
@@ -769,3 +2702,7 @@ var d = {
 	type:'pi',
 	img:'img/ll.jpg'	
 }
+// move(conTopSpan[i],'left',z1+arr[i],1000,'linear',(function(){
+// 	console.log(this);
+// }).bind(conTopSpan[i]))
+// 
