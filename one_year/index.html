@@ -229,89 +229,91 @@
 		</div>
 		
 		<script type="text/javascript">
-			var box = document.querySelectorAll('.cont')[0];
-			for(var i=0;i<arr.length;i++){
-				var div = createDiv(arr[i]);
-				box.appendChild(div)
-			}
-			
-			function createDiv(obj){
-				var div = document.createElement('div');
+			window.onload = function(){
+				var box = document.querySelectorAll('.cont')[0];
+				for(var i=0;i<arr.length;i++){
+					var div = createDiv(arr[i]);
+					box.appendChild(div)
+				}
 				
-				var str = '';
-				switch(obj.type){
-					case 'time':
-						div.className = 'time';
-						str = `<span>${obj.title}</span>`;
-						break;
-					case 'p' :
-						div.className = "pl fc";
-						str = `<img src="img/pl.jpg" alt="" class="fr"/>
-								<p class="fr">
-									<img src="img/pl-t.png" alt="" />
+				function createDiv(obj){
+					var div = document.createElement('div');
+					
+					var str = '';
+					switch(obj.type){
+						case 'time':
+							div.className = 'time';
+							str = `<span>${obj.title}</span>`;
+							break;
+						case 'p' :
+							div.className = "pl fc";
+							str = `<img src="img/pl.jpg" alt="" class="fr"/>
+									<p class="fr">
+										<img src="img/pl-t.png" alt="" />
+										
+											${obj.title}
+																	
+									</p>`;
+							break;
+						case 'l':
+							div.className = "ll fc";
+							str = `
+								<img src="img/ll.jpg" alt="" class="fl"/>
+								<p class="fl">
+									<img src="img/ll-t.png" alt="" />
 									
 										${obj.title}
-																
-								</p>`;
-						break;
-					case 'l':
-						div.className = "ll fc";
-						str = `
-							<img src="img/ll.jpg" alt="" class="fl"/>
-							<p class="fl">
-								<img src="img/ll-t.png" alt="" />
-								
-									${obj.title}
-								
-							</p>
-							`;
-						break;
-					case 'li' :
-						div.className = "ll-img fc";
-						str = `
-							<img src="img/ll.jpg" alt="" class="fl"/>
-							<p class="fl">
-								<img src="${obj.img}" />
-							</p>
-							`;
-						break;
-					case 'pi':
-						div.className = 'pl-img fc';
-						str = `
-							<img src="img/pl.jpg" alt="" class="fr"/>
-							<p class="fr">
-								<img src="${obj.img}" />
-							</p>
-							`;
-						break;
-				}
-				div.innerHTML = str;
-				
-				return div;
-			}
-			
-			var divs = document.querySelectorAll('.box .cont div');
-			
-			for(var i=0;i<divs.length;i++){
-				divs[i].index = i;
-			}
-			
-			fn(divs[0]);
-			function fn(el){
-				el.style.opacity = 1;
-				var next = el.nextElementSibling;
-				if(next != null){
-					var index = next.index;
-					
-					if(index >= 6){
-					
-						var h = divs[index].clientHeight;
-						window.scroll(0,h+window.pageYOffset);
+									
+								</p>
+								`;
+							break;
+						case 'li' :
+							div.className = "ll-img fc";
+							str = `
+								<img src="img/ll.jpg" alt="" class="fl"/>
+								<p class="fl">
+									<img src="${obj.img}" />
+								</p>
+								`;
+							break;
+						case 'pi':
+							div.className = 'pl-img fc';
+							str = `
+								<img src="img/pl.jpg" alt="" class="fr"/>
+								<p class="fr">
+									<img src="${obj.img}" />
+								</p>
+								`;
+							break;
 					}
-					setTimeout(function(){
-						fn(next);
-					},1000)
-				}				
+					div.innerHTML = str;
+					
+					return div;
+				}
+				
+				var divs = document.querySelectorAll('.box .cont div');
+				
+				for(var i=0;i<divs.length;i++){
+					divs[i].index = i;
+				}
+				
+				fn(divs[0]);
+				function fn(el){
+					el.style.opacity = 1;
+					var next = el.nextElementSibling;
+					if(next != null){
+						var index = next.index;
+						
+						if(index >= 6){
+						
+							var h = divs[index].clientHeight;
+							window.scroll(0,h+window.pageYOffset);
+						}
+						setTimeout(function(){
+							fn(next);
+						},1000)
+					}				
+				}
 			}
 		</script>
 	</body>
