@@ -478,6 +478,10 @@ let arr = [
 	img:'img/14.jpg'	
 },
 {
+	type:'li',
+	img:'img/53.jpg'	
+},
+{
 	type:'p',
 	title:'爱你'	
 },
@@ -637,8 +641,24 @@ let arr = [
 	title:'琳琳宝贝，我要向来天许愿，让我宝贝的愿望实现'	
 },
 {
+	type:'p',
+	title:'既然你妹妹发的52红包你会发朋友圈，那你老公给你多发一些'	
+},
+{
+	type:'li',
+	img:'img/51.jpg'	
+},
+{
+	type:'p',
+	title:'主要是某些人多发一点，不领情撒'	
+},
+{
 	type:'li',
 	img:'img/20.png'	
+},
+{
+	type:'li',
+	img:'img/52.jpg'	
 },
 {
 	type:'p',
@@ -1500,7 +1520,7 @@ let arr = [
 },
 {
 	type:'li',
-	img:'img/ll.jpg'	
+	img:'img/44.jpg'	
 },
 {
 	type:'time',
@@ -2677,6 +2697,698 @@ let arr = [
 	type:'l',
 	title:'你是一分钟吗'	
 },
+{
+	type:'p',
+	title:'亲爱的，给你展示一下第一次和你睡在一起的会议'	
+},
+{
+	type:'pi',
+	img:'img/45.jpg'	
+},
+{
+	type:'l',
+	title:'你给我滚'	
+},
+{
+	type:'p',
+	title:'对了，你妈妈问你没有'	
+},
+{
+	type:'l',
+	title:'问我什么'	
+},
+{
+	type:'p',
+	title:'为什么那么晚回家撒'	
+},
+{
+	type:'l',
+	title:'天没黑，'	
+},
+{
+	type:'p',
+	title:'明天就黑了才回嘛'	
+},
+{
+	type:'li',
+	img:'img/46.jpg'	
+},
+{
+	type:'p',
+	title:'老公亲不够嗒嘛'	
+},
+{
+	type:'li',
+	img:'img/47.jpg'	
+},
+{
+	type:'p',
+	title:'乖乖，我爱你'	
+},
+{
+	type:'l',
+	title:'我就不爱'	
+},
+{
+	type:'p',
+	title:'老婆，我失眠了'	
+},
+{
+	type:'l',
+	title:'怎么了嘛'	
+},
+{
+	type:'p',
+	title:'想你想的'	
+},
+{
+	type:'p',
+	title:'论一个女朋友打开的正确方式'	
+},
+{
+	type:'pi',
+	img:'img/48.jpg'	
+},
+{
+	type:'pi',
+	img:'img/49.jpg'	
+},
+{
+	type:'pi',
+	img:'img/50.jpg'	
+},
+{
+	type:'time',
+	title:'2020年6月7日 10:36'
+},
+{
+	type:'pi',
+	img:'img/54.jpg'	
+},
+{
+	type:'pi',
+	img:'img/55.jpg'	
+},
+{
+	type:'pi',
+	img:'img/56.jpg'	
+},
+{
+	type:'pi',
+	img:'img/57.jpg'	
+},
+{
+	type:'pi',
+	img:'img/58.jpg'	
+},
+{
+	type:'time',
+	title:'2020年6月22日 10:36'
+},
+{
+	type:'l',
+	title:'你少拍马屁了'	
+},
+{
+	type:'l',
+	title:'信你个鬼'	
+},
+{
+	type:'l',
+	title:'各走各的'	
+},
+{
+	type:'l',
+	title:'我怕你把我挤下去'	
+},
+{
+	type:'l',
+	title:'睡地上多好'	
+},
+{
+	type:'l',
+	title:'我穿睡袋睡'	
+},
+{
+	type:'p',
+	title:'那也不行，你睡觉不老实'	
+},
+{
+	type:'l',
+	title:'不用你管'	
+},
+{
+	type:'p',
+	title:'其他女人有自己男人管，不需要我'	
+},
+{
+	type:'l',
+	title:'我也不用'	
+},
+{
+	type:'l',
+	title:'昨天到了衣服'	
+},
+{
+	type:'p',
+	title:'说明这件衣服就是量身为你做的'	
+},
+{
+	type:'l',
+	title:'那天买的一个套装，一个衣服，有个裙子'	
+},
+{
+	type:'l',
+	title:'衣服合适，裙子腰大了，'	
+},
+{
+	type:'p',
+	title:'咋用其他搭配'	
+},
+{
+	type:'l',
+	title:'卖家说要换要衣服裙子一起换，不能单换裙子，'	
+},
+{
+	type:'p',
+	title:'不用这个群子，也不退换，就看重这件衣服叶可以'	
+},
+{
+	type:'l',
+	title:'大了2个拳头，'	
+},
+{
+	type:'p',
+	title:'宝贝，就不换了，把这套留下，衣服好，我们就传衣服，裙子不行那就搭配其他，裙子不要了'	
+},
+{
+	type:'l',
+	title:'不知道裙子能不能拿去裁缝店改一下腰'	
+},
+{
+	type:'p',
+	title:'肯定可以的'	
+},
+{
+	type:'l',
+	title:'不然没法穿'	
+},
+{
+	type:'l',
+	title:'每次减肥都是先瘦腰'	
+},
+{
+	type:'p',
+	title:'你腰本来就不大，好不好'	
+},
+{
+	type:'p',
+	title:'我又不是没有看见，摸过'	
+},
+{
+	type:'l',
+	title:'切'	
+},
+{
+	type:'p',
+	title:'本来就是'	
+},
+{
+	type:'l',
+	title:'我为什么要减肥'	
+},
+{
+	type:'p',
+	title:'为了穿婚纱漂亮，为了我'	
+},
+{
+	type:'l',
+	title:'别人不说恋爱应该让人增肥吗'	
+},
+{
+	type:'p',
+	title:'我晓得的'	
+},
+{type:'l',
+	title:'是为了万一遇到更好的怎么办'	
+},
+{
+	type:'p',
+	title:'那就直接打死'	
+},
+{
+	type:'p',
+	title:'再说，我会越来越好'	
+},
+{
+	type:'p',
+	title:'就是让你离不开我'	
+},
+{
+	type:'time',
+	title:'2020年6月23日 12:36'
+},
+{	
+	type:'l',
+	title:'中午我带了一个粽子'	
+},
+{	
+	type:'l',
+	title:'昨天晚上爸爸朋友也送来一箱粽子，'	
+},
+{	
+	type:'l',
+	title:'昨天的凉拌鸡肉'	
+},
+{
+	type:'li',
+	img:'img/59.jpg'	
+},
+{
+	type:'p',
+	title:'宝贝，我昨天那个粽子怎么样'	
+},
+{	
+	type:'l',
+	title:'亲，这完全就是送礼的礼盒'	
+},
+{	
+	type:'l',
+	title:'你为什么平时送礼物不走心， 这个买这种礼盒干什么，浪费钱'	
+},
+{	
+	type:'l',
+	title:'感觉一半的钱都是礼盒钱'	
+},
+{
+	type:'p',
+	title:'宝贝，肯定不止你一个人吃撒，我不得给我未来丈母娘老丈人好一点啊'	
+},
+{
+	type:'p',
+	title:'给他们留一个好一点的影响嘛'	
+},
+{	
+	type:'l',
+	title:'这种你还是留着以后你来家里的时候表现'	
+},
+{
+	type:'p',
+	title:'那时候肯定也得表现啊'	
+},
+{	
+	type:'l',
+	title:'但是现在就没必要买这种礼盒装的'	
+},
+{
+	type:'p',
+	title:'宝贝，你吃过泸州的那种白粽没有，就是什么都不放'	
+},
+{	
+	type:'l',
+	title:'就是纯糯米'	
+},
+{	
+	type:'l',
+	title:'你买的里面也有'	
+},
+{
+	type:'p',
+	title:'有看了一个泸州的，想给你买的，但是看它的包装一点都不好，怕你妈妈说这个男朋友这么一点都不用心，才换这个的'	
+},
+{	
+	type:'l',
+	title:'我没跟我妈妈说'	
+},
+{	
+	type:'l',
+	title:'但我妹妹一眼就看出来了，李子也是，跑来问我事彭彭买的吗'	
+},
+{
+	type:'p',
+	title:'彭彭，这个名字好女性化'	
+},
+{	
+	type:'l',
+	title:'不知道她为什么这么叫'	
+},
+{
+	type:'p',
+	title:'乖乖，让她喊姐夫嘛'	
+},
+{	
+	type:'l',
+	title:'不可能'	
+},
+{	
+	type:'l',
+	title:'她最多喊彭老师'	
+},
+{	
+	type:'l',
+	title:'要不就是哥'	
+},
+{
+	type:'p',
+	title:'就喊哥'	
+},
+{	
+	type:'l',
+	title:'我跟她都从来没喊过嫂子，或者姐夫'	
+},
+{
+	type:'p',
+	title:'姐夫也是哥'	
+},
+{	
+	type:'l',
+	title:'姐夫和嫂子听着不舒服'	
+},
+{
+	type:'p',
+	title:'喊哥我就很满足了'	
+},
+{	
+	type:'l',
+	title:'可能结婚后她才会喊'	
+},
+{
+	type:'p',
+	title:'你是跑不掉的'	
+},
+{
+	type:'time',
+	title:'2020年6月23日 10:36'
+},
+{
+	type:'p',
+	title:'乖乖，我想来陪你'	
+},
+{	
+	type:'l',
+	title:'可能结婚后她才会喊'	
+},
+{	
+	type:'l',
+	title:'陪我去哪儿'	
+},
+{
+	type:'p',
+	title:'你可别来，影响我减肥'	
+},
+{
+	type:'p',
+	title:'说的你好像胖一样'	
+},
+{	
+	type:'l',
+	title:'本来就胖'	
+},
+{	
+	type:'l',
+	title:'我要那种一穿上那种抹胸婚纱，啧啧，自已都羡慕'	
+},
+{	
+	type:'l',
+	title:'不要来影响我的决心，我都坚持一个月了'	
+},
+{
+	type:'p',
+	title:'你现在都不晓得瘦了好多斤了'	
+},
+{
+	type:'p',
+	title:'我想抱抱你'	
+},
+{	
+	type:'l',
+	title:'最近是平台期'	
+},
+{	
+	type:'l',
+	title:'不怎么掉秤'	
+},
+{	
+	type:'l',
+	title:'所以我都想绝食'	
+},
+{
+	type:'p',
+	title:'能保持，那就可以了'	
+},
+{
+	type:'p',
+	title:'那不行，我不同意哈'	
+},
+{
+	type:'p',
+	title:'本来就是，绝食好伤害身体的'	
+},
+{	
+	type:'l',
+	title:'也不是绝食'	
+},
+{	
+	type:'l',
+	title:'就是一天都喝奶昔'	
+},
+{	
+	type:'l',
+	title:'我准备这个假期三天一日三餐都喝奶昔，试一下'	
+},
+{
+	type:'p',
+	title:'那也得吃一点其他的东西'	
+},
+{	
+	type:'l',
+	title:'吃个枣'	
+},
+{	
+	type:'l',
+	title:'我也是在家休息才敢这么干，在公司我不敢，容易低血糖'	
+},
+{
+	type:'p',
+	title:'我就怕你把身体伤害了'	
+},
+{	
+	type:'l',
+	title:'不会'	
+},
+{
+	type:'p',
+	title:'你记到你的身体不光是你的，还是我的，还是我们娃儿的'	
+},
+{
+	type:'p',
+	title:'我想你了'	
+},
+{
+	type:'li',
+	img:'img/60.jpg'	
+},
+
+{	
+	type:'l',
+	title:'小白拿过来的，还挺好吃，我以为是牛肉，结果是猪肉'	
+},
+{
+	type:'p',
+	title:'宝贝，我给你买'	
+},
+{	
+	type:'l',
+	title:'我不要，减肥怎么能吃猪肉'	
+},
+{
+	type:'p',
+	title:'减肥三分运动，七分靠吃，但是又不是说不吃'	
+},
+{	
+	type:'l',
+	title:'我等体重到105了，才开始去运动，塑形'	
+},
+{	
+	type:'l',
+	title:'现在就靠7分的吃'	
+},
+{
+	type:'p',
+	title:'你现在吃的已经可以了'	
+},
+{	
+	type:'l',
+	title:'对呀，就剩下坚持'	
+},
+{
+	type:'p',
+	title:'你我还不了解啊，那是说到做到'	
+},
+{	
+	type:'l',
+	title:'其实有时候也有小小的偷吃'	
+},
+{	
+	type:'l',
+	title:'偷吃个辣子鸡啊，饼干之类的'	
+},
+{
+	type:'p',
+	title:'那不算'	
+},
+{	
+	type:'l',
+	title:'周日我去那房子拿东西'	
+},
+{	
+	type:'l',
+	title:'居然还有3小箱的粗粮饼干'	
+},
+{	
+	type:'l',
+	title:'打都没打开过，'	
+},
+{
+	type:'p',
+	title:'可能不好吃，不然你才不得忘记哦'	
+},
+{	
+	type:'l',
+	title:'那还是有段时间我减肥，犯低血糖跟朋友提了一嘴，他就买了几箱粗粮饼干给我'	
+},
+{	
+	type:'l',
+	title:'偶尔吃一块还可以，毕竟是粗粮'	
+},
+{
+	type:'p',
+	title:'宝贝，以后只能是我给你买'	
+},
+{
+	type:'p',
+	title:'其他男人我一个都不放心'	
+},
+{	
+	type:'l',
+	title:'切'	
+},
+{	
+	type:'l',
+	title:'偶尔吃一块还可以，毕竟是粗粮'	
+},
+{	
+	type:'l',
+	title:'有的饼干打着粗粮的旗号，做的齁甜'	
+},
+{
+	type:'p',
+	title:'其他男人我一个都不放心'	
+},
+{	
+	type:'l',
+	title:'自已照顾不好，还不让别人插手'	
+},
+{
+	type:'p',
+	title:'乖乖，让别人帮我照顾那不行，万一你跟别人跑了，我找谁赔我一个那么好的女人啊'	
+},
+{
+	type:'p',
+	title:'这个又不能买保险，跑了找保险赔一个'	
+},
+{	
+	type:'l',
+	title:'又不是你买的'	
+},
+{	
+	type:'l',
+	title:'为什么要赔钱'	
+},
+{
+	type:'p',
+	title:'对啊，就是不赔，所以我才不能让别人帮我照顾'	
+},
+{	
+	type:'l',
+	title:'那你自己照顾不好啊'	
+},
+{	
+	type:'l',
+	title:'就让别人接手撒'	
+},
+{
+	type:'p',
+	title:'我照顾的好'	
+},
+{
+	type:'p',
+	title:'乖乖，自己的女人必须自己照顾才能照顾的好，照顾的仔细'	
+},
+{	
+	type:'l',
+	title:'就你'	
+},
+{	
+	type:'l',
+	title:'快拉倒吧'	
+},
+{
+	type:'p',
+	title:'就是，其他人有自己老公照顾的好嘛，那是自己的枕边人，一辈子的人'	
+},
+{
+	type:'time',
+	title:'2020年6月23日 12:36'
+},
+{
+	type:'p',
+	title:'乖乖，我想你了，好想好想'	
+},
+{	
+	type:'l',
+	title:'那就继续想'	
+},
+{
+	type:'p',
+	title:'相思病都得到了哒嘛'	
+},
+{	
+	type:'l',
+	title:'再忍忍'	
+},
+{
+	type:'p',
+	title:'我每天不仅仅是扒着手指拇，还有脚指拇来算日子'	
+},
+{	
+	type:'l',
+	title:'好饭不怕晚'	
+},
+{	
+	type:'l',
+	title:'但有可能被别人端走'	
+},
+{
+	type:'p',
+	title:'对，就是怕被别人端走了，这可是满汉全席啊'	
+},
+{	
+	type:'l',
+	title:'你会担心吗'	
+},
+{
+	type:'p',
+	title:'每天我都是提心吊胆的'	
+},
+{	
+	type:'l',
+	title:'担心就对啦'	
+},
+{	
+	type:'l',
+	title:'不担心说明你不紧张'	
+},
 ]
 //琳琳文字
 var a = {
@@ -2702,7 +3414,5 @@ var d = {
 	type:'pi',
 	img:'img/ll.jpg'	
 }
-// move(conTopSpan[i],'left',z1+arr[i],1000,'linear',(function(){
-// 	console.log(this);
-// }).bind(conTopSpan[i]))
-// 
+
+ 

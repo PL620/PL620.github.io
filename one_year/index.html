@@ -80,6 +80,10 @@
 				overflow: auto;
 				padding-bottom: 53px;
 			}
+			.box .cont div{
+				opacity: 0;
+				transition: 0.4s;
+			}
 			.box .cont .time{
 				height: 51px;
 				
@@ -201,11 +205,15 @@
 				width: 170px;
 				height: auto;
 			}
-			
+			embed{
+				position: fixed;
+				z-index: -1;
+			}
 		</style>
 		<script type="text/javascript" src="index.js"></script>
 	</head>
 	<body>
+		<embed src="img/muisc.mp3" type="" control />
 		<div class="box">
 			<div class="header">
 				<img src="img/rigth.png" alt="" class="fl"/>
@@ -216,37 +224,7 @@
 			<div class="footer"></div>
 			<div class="bj"></div>
 			<div class="cont">				
-				<!-- <div class="time">
-					<span>上午2:13</span>
-				</div>
-				<div class="ll fc">
-					<img src="img/ll.jpg" alt="" class="fl"/>
-					<p class="fl">
-						<img src="img/ll-t.png" alt="" />
-						大大大大大大
-					</p>
-				</div>
-				<div class="pl fc">
-					<img src="img/pl.jpg" alt="" class="fr"/>
-					<p class="fr">
-						<img src="img/pl-t.png" alt="" />
-						ddddd
-					</p>				
-				</div>
 				
-				<div class="pl-img fc">
-					<img src="img/pl.jpg" alt="" class="fr"/>
-					<p class="fr">
-						<img src="img/ll.jpg" />
-					</p>				
-				</div>
-				
-				<div class="ll-img fc">
-					<img src="img/ll.jpg" alt="" class="fl"/>
-					<p class="fl">
-						<img src="img/ll.jpg" />
-					</p>
-				</div> -->
 			</div>
 		</div>
 		
@@ -254,7 +232,6 @@
 			var box = document.querySelectorAll('.cont')[0];
 			for(var i=0;i<arr.length;i++){
 				var div = createDiv(arr[i]);
-				// console.log(div)
 				box.appendChild(div)
 			}
 			
@@ -311,6 +288,30 @@
 				div.innerHTML = str;
 				
 				return div;
+			}
+			
+			var divs = document.querySelectorAll('.box .cont div');
+			
+			for(var i=0;i<divs.length;i++){
+				divs[i].index = i;
+			}
+			
+			fn(divs[0]);
+			function fn(el){
+				el.style.opacity = 1;
+				var next = el.nextElementSibling;
+				if(next != null){
+					var index = next.index;
+					
+					if(index >= 6){
+					
+						var h = divs[index].clientHeight;
+						window.scroll(0,h+window.pageYOffset);
+					}
+					setTimeout(function(){
+						fn(next);
+					},1000)
+				}				
 			}
 		</script>
 	</body>
