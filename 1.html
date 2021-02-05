@@ -2,22 +2,35 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<title>开启摄像头</title>
 	</head>
 	<body>
 		
+		<button type="button">开启摄像头</button>
 		<script type="text/javascript">
 			/*
-				地址栏信息：
-					location对象：
-						host ：127.0.0.1
-						
+				摄像头：
+					
+					window.navigator.mediaDevices.getUserMedia
+			
+			
 			*/
-		   var loca = window.location;
-		   document.write(loca.host);
+		   console.log(window.navigator.mediaDevices.getUserMedia)
+		   var btn = document.querySelectorAll('button')[0];
 		   
-		   console.log(location);
-		   
+		   btn.onclick = function(){
+			   window.navigator.mediaDevices.getUserMedia({
+				    audio:true,
+				    video:{
+						width:1000,
+						height:1000
+				    }
+			   }).then(function(data){
+				   console.log('开启摄像头成功',data);
+			   }).catch(function(err){
+				   console.log('开启摄像头失败',err)
+			   });
+		   }
 		</script>
 	</body>
 </html>
