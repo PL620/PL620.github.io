@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<title>love my 琳琳</title>
+<style>
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #000;
+	margin: 0;
+	font-family: Helvetica, sans-serif;;
+	-overflow: hidden;
+}
+
+a {
+	color: #ffffff;
+}
+
+#info {
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	color: #ffffff;
+	padding: 5px;
+	font-family: Monospace;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	z-index: 1;
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+}
+
+#menu {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+.element {
+	width: 120px;
+	height: 160px;
+	box-shadow: 0px 0px 12px rgba(0,255,255,0.5);
+	border: 1px solid rgba(127,255,255,0.25);
+	text-align: center;
+	cursor: default;
+}
+
+.element:hover {
+	box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
+	border: 1px solid rgba(127,255,255,0.75);
+}
+
+	.element .number {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		font-size: 12px;
+		color: rgba(127,255,255,0.75);
+	}
+
+	.element .symbol {
+		position: absolute;
+		top: 40px;
+		left: 0px;
+		right: 0px;
+		font-size: 60px;
+		font-weight: bold;
+		color: rgba(255,255,255,0.75);
+		text-shadow: 0 0 10px rgba(0,255,255,0.95);
+	}
+
+	.element .details {
+		position: absolute;
+		bottom: 15px;
+		left: 0px;
+		right: 0px;
+		font-size: 12px;
+		color: rgba(127,255,255,0.75);
+	}
+
+button {
+	color: rgba(127,255,255,0.75);
+	background: transparent;
+	outline: 1px solid rgba(127,255,255,0.75);
+	border: 0px;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.tip{
+	color: rgba(127,255,255,0.75);
+	background: transparent;
+	outline: 1px solid rgba(127,255,255,0.75);
+	border: 0px;
+	padding: 5px 10px;
+}
+button:hover {
+	background-color: rgba(0,255,255,0.5);
+}
+button:active {
+	color: #000000;
+	background-color: rgba(0,255,255,0.75);
+}
+</style>
+</head>
+<body>
+<script src="js/three.min.js"></script>
+<script src="js/tween.min.js"></script>
+<script src="js/TrackballControls.js"></script>
+<script src="js/CSS3DRenderer.js"></script>
+
+<div id="container" style="-webkit-transform: scale(1);transform: scale(1);"></div>
+<div id="info" style="display: none;"><a href="http://threejs.org" target="_blank"></a><a href="http://www.htmleaf.com/" target="_blank"></a>.</div>
+<div id="menu">
+<button id="table">我们的第二个元宵节</button>
+<button id="sphere" style="display: none;">SPHERE</button>
+<button id="helix">节日快乐</button>
+<button id="grid" style="display: none;">GRID</button>
+	<button class="tip" style="display: none;">按下鼠标拖动</button>
+	<button class="tip" style="display: none;">滑轮缩放大小</button>
+
+</div>
+
+<script>
+
+var table = [
+	"幺", "", "", 2, 1,
+	"乖", "", "", 3, 1,
+	"儿", "love", "love", 4, 1,
+	"：", "love", "love", 5, 1,
+	"你", "Carbon", "12.0107", 4, 3,
+	"是", "Nitrogen", "14.0067", 5, 3,
+	"我", "Oxygen", "15.9994", 6, 3,
+	"目", "Fluorine", "18.9984032", 7, 3,
+	"光", "Neon", "20.1797", 8, 3,
+	"的", "Sodium", "22.98976...", 9, 3,
+	"期", "Magnesium", "24.305", 10, 3,
+	"待", "Aluminium", "26.9815386", 11, 3,
+	"，", "Silicon", "28.0855", 12, 3,
+	"你", "Phosphorus", "30.973762", 4, 4,
+	"是", "Sulfur", "32.065", 5, 4,
+	"我", "Chlorine", "35.453", 6, 4,
+	"翅", "Argon", "39.948", 7, 4,
+	"膀", "Potassium", "39.948", 8, 4,
+	"的", "Calcium", "40.078", 9, 4,
+	"方", "Scandium", "44.955912", 10, 4,
+	"向", "Titanium", "47.867", 11, 4,
+	"，", "Vanadium", "50.9415", 12, 4,
+	"你", "Chromium", "51.9961", 4, 5,
+	"是", "Manganese", "54.938045", 5, 5,
+	"我", "Iron", "55.845", 6, 5,
+	"心", "Cobalt", "58.933195", 7, 5,
+	"灵", "Nickel", "58.6934", 8, 5,
+	"的", "Copper", "63.546", 9, 5,
+	"归", "Zinc", "65.38", 10, 5,
+	"途", "Gallium", "69.723", 11, 5,
+	"，", "Germanium", "72.63", 12, 5,
+	"我", "Arsenic", "74.9216", 4, 6,
+	"醒", "Selenium", "78.96", 5, 6,
+	"着", "Bromine", "79.904", 6, 6,
+	"你", "Krypton", "83.798", 7, 6,
+	"是", "Rubidium", "85.4678", 8,6,
+	"我", "Strontium", "87.62", 9, 6,
+	"盼", "Yttrium", "88.90585", 10, 6,
+	"望", "Zirconium", "91.224", 11, 6,
+	"的", "Niobium", "92.90628", 12, 6,
+	"希", "Molybdenum", "95.96", 13, 6,
+	"望", "Technetium", "(98)", 14, 6,
+	"，", "Ruthenium", "101.07", 15, 6,
+	"我", "Rhodium", "102.9055", 4, 7,
+	"睡", "Palladium", "106.42", 5, 7,
+	"着", "Silver", "107.8682", 6, 7,
+	"你", "Cadmium", "112.411", 7, 7,
+	"是", "Indium", "114.818", 8, 7,
+	"我", "Tin", "118.71", 9, 7,
+	"想", "Antimony", "121.76", 10, 7,
+	"念", "Tellurium", "127.6", 11, 7,
+	"的", "Iodine", "126.90447", 12, 7,
+	"呼", "Xenon", "131.293", 13, 7,
+	"吸", "Caesium", "132.9054", 14, 7,
+	"。", "Barium", "132.9054", 15, 7,
+	"我", "Lanthanum", "138.90547", 4, 8,
+	"想", "Cerium", "140.116", 5, 8,
+	"把", "Praseodymium", "140.90765", 6, 8,
+	"世", "Neodymium", "144.242", 7, 8,
+	"界", "Promethium", "(145)", 8, 8,
+	"上", "Samarium", "150.36", 9, 8,
+	"最", "Europium", "151.964", 10, 8,
+	"好", "Gadolinium", "157.25", 11, 8,
+	"的", "Terbium", "158.92535", 12, 8,
+	"都", "Dysprosium", "162.5", 13, 8,
+	"给", "Holmium", "164.93032", 14, 8,
+	"你", "Holmium", "164.93032", 15, 8,
+	"，", "Europium", "151.964", 16, 8,
+	"发", "Gadolinium", "157.25", 4, 9,
+	"现", "Terbium", "158.92535", 5, 9,
+	"世", "Dysprosium", "162.5", 6, 9,
+	"界", "Holmium", "164.93032", 7, 9,
+	"上", "Holmium", "164.93032", 8, 9,
+	"最", "Europium", "151.964", 9, 9,
+	"好", "Gadolinium", "157.25", 10, 9,
+	"的", "Terbium", "158.92535", 11, 9,
+	"就", "Dysprosium", "162.5", 12, 9,
+	"是", "Holmium", "164.93032", 13, 9,
+	"你", "Holmium", "164.93032", 14, 9,
+	"去", "Holmium", "164.93032", 4, 11,
+	"年", "Holmium", "164.93032", 5, 11,
+	"的", "Holmium", "164.93032", 6, 11,
+	"元", "Holmium", "164.93032", 7, 11,
+	"宵", "Holmium", "164.93032", 8, 11,
+	"节", "Holmium", "164.93032", 11, 11,
+	"你", "Holmium", "164.93032", 12, 11,
+	"在", "Holmium", "164.93032", 13, 11,
+	"泸", "Holmium", "164.93032", 14, 11,
+	"州", "Holmium", "164.93032", 15, 11,
+	"今", "Holmium", "164.93032", 4, 12,
+	"年", "Holmium", "164.93032", 5, 12,
+	"的", "Holmium", "164.93032", 6, 12,
+	"元", "Holmium", "164.93032", 7, 12,
+	"宵", "Holmium", "164.93032", 8, 12,
+	"节", "Holmium", "164.93032", 9, 12,
+	"你", "Holmium", "164.93032", 10, 12,
+    "在", "Holmium", "164.93032", 11, 12,
+	"天", "Holmium", "164.93032", 12, 12,
+	"津", "Holmium", "164.93032", 13, 12,
+	"。", "Holmium", "164.93032", 14, 12,
+	"我", "Holmium", "164.93032", 15, 12,
+	"渴", "Holmium", "164.93032", 4, 13,
+	"望", "Holmium", "164.93032", 5, 13,
+	"此", "Holmium", "164.93032", 6, 13,
+	'时', "Holmium", "164.93032", 7, 13,
+	'此', "Holmium", "164.93032", 8, 13,
+	"刻", "Holmium", "164.93032", 9, 13,
+	"你", "Holmium", "164.93032", 10, 13,
+	"在", "Holmium", "164.93032", 11, 13,
+	'我', "Holmium", "164.93032", 12, 13,
+	"身", "Holmium", "164.93032", 13, 13,
+	"边", "Holmium", "164.93032", 14, 13,
+	"爱", "Holmium", "164.93032", 15, 13,
+	"你", "Holmium", "164.93032", 4, 14,
+	"、", "Holmium", "164.93032", 5, 14,
+	"想", "Holmium", "164.93032", 6, 14,
+	"你", "Holmium", "164.93032", 7, 14,
+	"、", "Holmium", "164.93032", 8, 14,
+	"念", "Holmium", "164.93032", 9, 14,
+	"你", "Holmium", "164.93032", 10, 14,
+	"、", "Holmium", "164.93032", 11, 14,
+	/*"Er", "Erbium", "167.259", 9, 8,
+	"Tm", "Thulium", "168.93421", 16, 9,
+	"Yb", "Ytterbium", "173.054", 17, 9,
+	"Lu", "Lutetium", "174.9668", 18, 9,
+	"Hf", "Hafnium", "178.49", 4, 6,
+	"Ta", "Tantalum", "180.94788", 5, 6,
+	"W", "Tungsten", "183.84", 6, 6,
+	"Re", "Rhenium", "186.207", 7, 6,
+	"Os", "Osmium", "190.23", 8, 6,
+	"Ir", "Iridium", "192.217", 9, 6,
+	"Pt", "Platinum", "195.084", 10, 6,
+	"Au", "Gold", "196.966569", 11, 6,
+	"Hg", "Mercury", "200.59", 12, 6,
+	"Tl", "Thallium", "204.3833", 13, 6,
+	"Pb", "Lead", "207.2", 14, 6,
+	"Bi", "Bismuth", "208.9804", 15, 6,
+	"Po", "Polonium", "(209)", 16, 6,
+	"At", "Astatine", "(210)", 17, 6,
+	"Rn", "Radon", "(222)", 18, 6,
+	"Fr", "Francium", "(223)", 1, 7,
+	"Ra", "Radium", "(226)", 2, 7,
+	"Ac", "Actinium", "(227)", 4, 10,
+	"Th", "Thorium", "232.03806", 5, 10,
+	"Pa", "Protactinium", "231.0588", 6, 10,
+	"U", "Uranium", "238.02891", 7, 10,
+	"Np", "Neptunium", "(237)", 8, 10,
+	"Pu", "Plutonium", "(244)", 9, 10,
+	"Am", "Americium", "(243)", 10, 10,
+	"Cm", "Curium", "(247)", 11, 10,
+	"Bk", "Berkelium", "(247)", 12, 10,
+	"Cf", "Californium", "(251)", 13, 10,
+	"Es", "Einstenium", "(252)", 14, 10,
+	"Fm", "Fermium", "(257)", 15, 10,
+	"Md", "Mendelevium", "(258)", 16, 10,
+	"No", "Nobelium", "(259)", 17, 10,
+	"Lr", "Lawrencium", "(262)", 18, 10,
+	"Rf", "Rutherfordium", "(267)", 4, 7,
+	"Db", "Dubnium", "(268)", 5, 7,
+	"Sg", "Seaborgium", "(271)", 6, 7,
+	"Bh", "Bohrium", "(272)", 7, 7,
+	"Hs", "Hassium", "(270)", 8, 7,
+	"Mt", "Meitnerium", "(276)", 9, 7,
+	"Ds", "Darmstadium", "(281)", 10, 7,
+	"Rg", "Roentgenium", "(280)", 11, 7,
+	"Cn", "Copernicium", "(285)", 12, 7,
+	"Uut", "Unutrium", "(284)", 13, 7,
+	"Fl", "Flerovium", "(289)", 14, 7,
+	"Uup", "Ununpentium", "(288)", 15, 7,
+	"Lv", "Livermorium", "(293)", 16, 7,
+	"Uus", "Ununseptium", "(294)", 17, 7,
+	"Uuo", "Ununoctium", "(294)", 18, 7*/
+];
+
+var camera, scene, renderer;
+var controls;
+
+var objects = [];
+var targets = { table: [], sphere: [], helix: [], grid: [] };
+
+init();
+animate();
+
+function init() {
+
+	camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 10000 );
+	camera.position.z = 3000;
+
+	scene = new THREE.Scene();
+
+	// table
+
+	for ( var i = 0; i < table.length; i += 5 ) {
+
+		var element = document.createElement( 'div' );
+		element.className = 'element';
+		element.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
+
+		var number = document.createElement( 'div' );
+		number.className = 'number';
+		number.textContent = (i/5) + 1;
+		element.appendChild( number );
+
+		var symbol = document.createElement( 'div' );
+		symbol.className = 'symbol';
+		symbol.textContent = table[ i ];
+		element.appendChild( symbol );
+
+		var details = document.createElement( 'div' );
+		details.className = 'details';
+		details.innerHTML = table[ i + 1 ] + '<br>' + table[ i + 2 ];
+		element.appendChild( details );
+
+		var object = new THREE.CSS3DObject( element );
+		object.position.x = Math.random() * 4000 - 2000;
+		object.position.y = Math.random() * 4000 - 2000;
+		object.position.z = Math.random() * 4000 - 2000;
+		scene.add( object );
+
+		objects.push( object );
+
+		//
+
+		var object = new THREE.Object3D();
+		object.position.x = ( table[ i + 3 ] * 140 ) - 1330;
+		object.position.y = - ( table[ i + 4 ] * 180 ) + 990;
+
+		targets.table.push( object );
+
+	}
+
+	// sphere
+
+	var vector = new THREE.Vector3();
+
+	for ( var i = 0, l = objects.length; i < l; i ++ ) {
+
+		var phi = Math.acos( -1 + ( 2 * i ) / l );
+		var theta = Math.sqrt( l * Math.PI ) * phi;
+
+		var object = new THREE.Object3D();
+
+		object.position.x = 800 * Math.cos( theta ) * Math.sin( phi );
+		object.position.y = 800 * Math.sin( theta ) * Math.sin( phi );
+		object.position.z = 800 * Math.cos( phi );
+
+		vector.copy( object.position ).multiplyScalar( 2 );
+
+		object.lookAt( vector );
+
+		targets.sphere.push( object );
+
+	}
+
+	// helix
+
+	var vector = new THREE.Vector3();
+
+	for ( var i = 0, l = objects.length; i < l; i ++ ) {
+
+		var phi = i * 0.175 + Math.PI;
+
+		var object = new THREE.Object3D();
+
+		object.position.x = 900 * Math.sin( phi );
+		object.position.y = - ( i * 8 ) + 450;
+		object.position.z = 900 * Math.cos( phi );
+
+		vector.x = object.position.x * 2;
+		vector.y = object.position.y;
+		vector.z = object.position.z * 2;
+
+		object.lookAt( vector );
+
+		targets.helix.push( object );
+
+	}
+
+	// grid
+
+	for ( var i = 0; i < objects.length; i ++ ) {
+
+		var object = new THREE.Object3D();
+
+		object.position.x = ( ( i % 5 ) * 400 ) - 800;
+		object.position.y = ( - ( Math.floor( i / 5 ) % 5 ) * 400 ) + 800;
+		object.position.z = ( Math.floor( i / 25 ) ) * 1000 - 2000;
+
+		targets.grid.push( object );
+
+	}
+
+	//
+
+	renderer = new THREE.CSS3DRenderer();
+	renderer.setSize( window.innerWidth, window.innerHeight );
+	renderer.domElement.style.position = 'absolute';
+	document.getElementById( 'container' ).appendChild( renderer.domElement );
+
+	//
+
+	controls = new THREE.TrackballControls( camera, renderer.domElement );
+	controls.rotateSpeed = 0.5;
+	controls.minDistance = 500;
+	controls.maxDistance = 6000;
+	controls.addEventListener( 'change', render );
+
+	var button = document.getElementById( 'table' );
+	button.addEventListener( 'click', function ( event ) {
+
+		transform( targets.table, 2000 );
+
+	}, false );
+
+	var button = document.getElementById( 'sphere' );
+	button.addEventListener( 'click', function ( event ) {
+
+		transform( targets.sphere, 2000 );
+
+	}, false );
+
+	var button = document.getElementById( 'helix' );
+	button.addEventListener( 'click', function ( event ) {
+
+		transform( targets.helix, 2000 );
+
+	}, false );
+
+	var button = document.getElementById( 'grid' );
+	button.addEventListener( 'click', function ( event ) {
+
+		transform( targets.grid, 2000 );
+
+	}, false );
+
+	transform( targets.table, 5000 );
+
+	//
+
+	window.addEventListener( 'resize', onWindowResize, false );
+
+}
+
+function transform( targets, duration ) {
+
+	TWEEN.removeAll();
+
+	for ( var i = 0; i < objects.length; i ++ ) {
+
+		var object = objects[ i ];
+		var target = targets[ i ];
+
+		new TWEEN.Tween( object.position )
+			.to( { x: target.position.x, y: target.position.y, z: target.position.z }, Math.random() * duration + duration )
+			.easing( TWEEN.Easing.Exponential.InOut )
+			.start();
+
+		new TWEEN.Tween( object.rotation )
+			.to( { x: target.rotation.x, y: target.rotation.y, z: target.rotation.z }, Math.random() * duration + duration )
+			.easing( TWEEN.Easing.Exponential.InOut )
+			.start();
+
+	}
+
+	new TWEEN.Tween( this )
+		.to( {}, duration * 2 )
+		.onUpdate( render )
+		.start();
+
+}
+
+function onWindowResize() {
+
+	camera.aspect = window.innerWidth / window.innerHeight;
+	camera.updateProjectionMatrix();
+
+	renderer.setSize( window.innerWidth, window.innerHeight );
+
+	render();
+
+}
+
+function animate() {
+
+	requestAnimationFrame( animate );
+
+	TWEEN.update();
+
+	controls.update();
+
+}
+
+function render() {
+
+	renderer.render( scene, camera );
+
+}
+
+</script>
+</body>
+</html>
