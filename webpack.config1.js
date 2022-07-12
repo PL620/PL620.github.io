@@ -18,6 +18,15 @@ module.exports = {
 					 'css-loader',
 					 'less-loader'
 				 ]
+			},
+			{
+				test:/\.(png|jpg|gif)/,
+				 use:{
+					 loader:"url-loader",
+					 options:{
+						 limit:17000
+					 }
+				 }
 			}
 			 
 		 ],
