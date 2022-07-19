@@ -20,11 +20,12 @@ module.exports = {
 				 ]
 			},
 			{
-				test:/\.(png|jpg|gif)/,
+				test:/\.(png|svg|jpg|jpeg|gif)/,
 				 use:{
 					 loader:"url-loader",
 					 options:{
-						 limit:17000
+						 // publicPath:"./img/",
+						 limit:800000
 					 }
 				 }
 			}
