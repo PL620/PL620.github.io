@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+li,
+ul {
+	list-style: none;
+}
+
+i {
+	font-style: normal;
+}
+
+button,
+input {
+	border: none;
+	outline: none;
+}
+
+
+.box {
+	width: 640px;
+	height: 100vh;
+	background: url(bj.png);
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 30px;
+	position: relative;
+}
+.box i {
+	position: absolute;
+	top:100px;
+	left: 50%;
+	font-size: 200px;
+	margin-left: -60px;
+	transition: 0.5s;
+	transform: scale(0);
+}

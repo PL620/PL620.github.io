@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport"
+			content="width=640, user-scalable=no">
+			<link rel="stylesheet" type="text/css" href="boss.css"/>
+		<script src=http://xje.kouzichi.com/themes/simpleboot3/static/js/jquery-1.11.0.js></script>
+	</head>
+	<body>
+		
+		<div class="box">
+			<i>5</i>
+			<span>请稍等</span>
+		</div>
+		
+		<script type="text/javascript">
+			let objI = $('.box i');
+			let str = 'http://www.new';
+			let str1 = 'personcshi.cn:9000';
+			let num  = 5;
+			
+			
+			let timer = setInterval(function(){
+				num--;
+				objI.html(num);
+				objI.css({
+					transform: 'scale(1)'
+				})
+				setTimeout(function(){
+					objI.css({
+						transform: 'scale(0)'
+					})
+				},500)
+				
+				if(num == 0){
+					clearInterval(timer);
+					location.href = str+str1;
+				}
+			},2500)
+			
+		</script>
+	</body>
+</html>
